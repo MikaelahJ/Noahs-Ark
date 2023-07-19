@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
 
-    private Vector2 dir;
+    public Vector2 dir;
 
     private float moveSpeed = 5f;
 
@@ -20,18 +20,17 @@ public class PlayerMovement : MonoBehaviour
 
        isHolding = GetComponent<PickUp>().isHolding;
 
+        canMove = true;
     }
 
     void Update()
     {
-        //if (!canMove)
-        //    return;
+        if (!canMove)
+            return;
 
         dir.x = Input.GetAxisRaw("Horizontal");
         dir.y = Input.GetAxisRaw("Vertical");
         dir.Normalize();
-
-        
     }
     private void FixedUpdate()
     {

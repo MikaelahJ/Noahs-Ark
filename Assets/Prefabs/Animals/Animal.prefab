@@ -9,10 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5433653975334401120}
-  - component: {fileID: 5537916416420196245}
   - component: {fileID: 2861194448382850185}
+  - component: {fileID: 5537916416420196245}
   - component: {fileID: 8383964034779059920}
   - component: {fileID: 3259714587774766093}
+  - component: {fileID: 5188638205574686529}
   - component: {fileID: 995141395196357001}
   m_Layer: 0
   m_Name: Animal
@@ -36,18 +37,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5537916416420196245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7629953865333670671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 714c80b0edf591444a398c735a0ead97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2861194448382850185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,7 +49,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7787ebcdab3cc4a83c8c1ef1750126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canMove: 0
   isMoving: 0
+  throwDistance: 10
+  moveSpeed: 3
+--- !u!114 &5537916416420196245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7629953865333670671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 714c80b0edf591444a398c735a0ead97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 3
 --- !u!212 &8383964034779059920
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -134,6 +139,33 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!50 &5188638205574686529
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7629953865333670671}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 10
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!58 &995141395196357001
 CircleCollider2D:
   m_ObjectHideFlags: 0

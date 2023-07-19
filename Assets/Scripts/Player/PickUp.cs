@@ -8,15 +8,28 @@ public class PickUp : MonoBehaviour
 {
 
     [SerializeField] private TextMeshProUGUI pickupText;
+    [SerializeField] private Transform holdingPos;
 
     private List<GameObject> pickupsInRadius = new List<GameObject>();
     private GameObject closestPickup;
 
     public bool isHolding;
 
+    private void Update()
+    {
+        if (closestPickup != null && Input.GetKeyDown(KeyCode.E))
+        {
+            PickUpAnimal();
+        }
+        if(isHolding && Input.GetKeyDown(KeyCode.E))
+        {
+            GetComponent<Drop>().ThrowAnimal(closestPickup);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.gameObject.CompareTag("Pickupable"))
+        if (!collision.gameObject.CompareTag("Pickupable") || isHolding)
             return;
 
         pickupsInRadius.Add(collision.gameObject);
@@ -24,10 +37,6 @@ public class PickUp : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (closestPickup != null && Input.GetKeyDown(KeyCode.E))
-            PickUpAnimal();
-
-        if(isHolding) { }
         foreach (GameObject obj in pickupsInRadius)
         {
             Vector2 direction = obj.transform.position - transform.position;
@@ -62,9 +71,10 @@ public class PickUp : MonoBehaviour
     {
         pickupText.text = "Drop [E]";
         isHolding = true;
+        pickupsInRadius.Clear();
 
         closestPickup.GetComponent<AnimalMovement>().StopMoving();
-
-
+        closestPickup.transform.SetParent(holdingPos);
+        closestPickup.transform.position = holdingPos.position;
     }
 }
