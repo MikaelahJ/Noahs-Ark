@@ -6,6 +6,7 @@ using TMPro;
 
 public class PickUp : MonoBehaviour
 {
+    private PlayerManager playerManager;
 
     [SerializeField] private TextMeshProUGUI pickupText;
     [SerializeField] private Transform holdingPos;
@@ -13,23 +14,29 @@ public class PickUp : MonoBehaviour
     private List<GameObject> pickupsInRadius = new List<GameObject>();
     private GameObject closestPickup;
 
-    public bool isHolding;
+    private void Start()
+    {
+        playerManager = PlayerManager.GetInstance();
+    }
 
     private void Update()
     {
         if (closestPickup != null && Input.GetKeyDown(KeyCode.E))
         {
-            PickUpAnimal();
-        }
-        if(isHolding && Input.GetKeyDown(KeyCode.E))
-        {
-            GetComponent<Drop>().ThrowAnimal(closestPickup);
+            if (playerManager.isHolding)
+            {
+                GetComponent<Drop>().DropOrThrow(closestPickup);
+                playerManager.isHolding = false;
+                pickupText.text = "";
+            }
+            else 
+                PickUpAnimal();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.gameObject.CompareTag("Pickupable") || isHolding)
+        if (!collision.gameObject.CompareTag("Pickupable") || playerManager.isHolding)
             return;
 
         pickupsInRadius.Add(collision.gameObject);
@@ -63,18 +70,19 @@ public class PickUp : MonoBehaviour
                 pickupText.text = "";
         }
 
-        if (isHolding)
+        if (playerManager.isHolding)
             pickupText.text = "Drop [E]";
     }
 
     private void PickUpAnimal()
     {
         pickupText.text = "Drop [E]";
-        isHolding = true;
+        playerManager.isHolding = true;
         pickupsInRadius.Clear();
 
         closestPickup.GetComponent<AnimalMovement>().StopMoving();
         closestPickup.transform.SetParent(holdingPos);
         closestPickup.transform.position = holdingPos.position;
+        closestPickup.GetComponent<Rigidbody2D>().isKinematic = true;
     }
 }

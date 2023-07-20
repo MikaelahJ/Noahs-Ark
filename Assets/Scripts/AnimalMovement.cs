@@ -9,7 +9,7 @@ public class AnimalMovement : MonoBehaviour
     public bool canMove;
     public bool isMoving;
 
-    public float throwDistance = 10f;
+    public float throwDistance = 100f;
     public float moveSpeed = 3f;
 
     private float minWaitTime = 1f;
@@ -39,7 +39,10 @@ public class AnimalMovement : MonoBehaviour
         if (canMove)
         {
             canMove = false;
-            StopCoroutine(MoveToPos());
+            if (movementCoroutine != null)
+            {
+                StopCoroutine(movementCoroutine);
+            }
         }
     }
 

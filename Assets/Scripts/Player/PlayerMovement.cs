@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private PlayerManager playerManager;
+
     private Rigidbody2D rb;
 
     public Vector2 dir;
@@ -11,26 +13,29 @@ public class PlayerMovement : MonoBehaviour
     private float moveSpeed = 5f;
 
     private bool isHolding;
-    private bool canMove;
 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
-       isHolding = GetComponent<PickUp>().isHolding;
-
-        canMove = true;
+        playerManager = PlayerManager.GetInstance();
+        playerManager.canMove = true;
     }
 
     void Update()
     {
-        if (!canMove)
+        if (!playerManager.canMove)
             return;
 
         dir.x = Input.GetAxisRaw("Horizontal");
         dir.y = Input.GetAxisRaw("Vertical");
         dir.Normalize();
+
+        if (dir == Vector2.zero)
+            playerManager.isMoving = false;
+        else
+            playerManager.isMoving = true;
     }
     private void FixedUpdate()
     {
