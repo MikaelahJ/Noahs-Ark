@@ -12,9 +12,6 @@ public class PlayerMovement : MonoBehaviour
 
     private float moveSpeed = 5f;
 
-    private bool isHolding;
-
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -37,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
         else
             playerManager.isMoving = true;
     }
+
     private void FixedUpdate()
     {
         rb.velocity = dir * moveSpeed;

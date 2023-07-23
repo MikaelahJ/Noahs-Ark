@@ -12,7 +12,8 @@ public class PickUp : MonoBehaviour
     [SerializeField] private Transform holdingPos;
 
     private List<GameObject> pickupsInRadius = new List<GameObject>();
-    private GameObject closestPickup;
+
+    public GameObject closestPickup;
 
     private void Start()
     {
@@ -78,8 +79,8 @@ public class PickUp : MonoBehaviour
     {
         pickupText.text = "Drop [E]";
         playerManager.isHolding = true;
-        pickupsInRadius.Clear();
 
+        closestPickup.layer = 6;
         closestPickup.GetComponent<AnimalMovement>().StopMoving();
         closestPickup.transform.SetParent(holdingPos);
         closestPickup.transform.position = holdingPos.position;

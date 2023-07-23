@@ -9,7 +9,8 @@ public class AnimalMovement : MonoBehaviour
     public bool canMove;
     public bool isMoving;
 
-    public float throwDistance = 100f;
+    public float throwDistance = 10f;
+    public float throwDrag = 3f;
     public float moveSpeed = 3f;
 
     private float minWaitTime = 1f;
@@ -22,11 +23,20 @@ public class AnimalMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        StartMoving();
+        StartMovingInvoke();
+    }
+
+    public void StartMovingInvoke()
+    {
+        Invoke(nameof(StartMoving), 3);
     }
 
     public void StartMoving()
     {
+        rb.drag = 10f;
+        if(gameObject.layer != 0)
+            gameObject.layer = 0;
+
         if (!canMove)
         {
             canMove = true;
@@ -36,12 +46,16 @@ public class AnimalMovement : MonoBehaviour
 
     public void StopMoving()
     {
+        CancelInvoke();
+
         if (canMove)
         {
             canMove = false;
             if (movementCoroutine != null)
             {
                 StopCoroutine(movementCoroutine);
+                isMoving = false;
+                rb.velocity = Vector3.zero;
             }
         }
     }
