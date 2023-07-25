@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
         instance = this;
         DontDestroyOnLoad(this.gameObject);
     }
+
+    public static GameManager GetInstance() { return instance; }
+
     #endregion
 
     void Start()

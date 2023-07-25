@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BoatMovement : MonoBehaviour
+public class BoatAnimation : MonoBehaviour
 {
-    private GameManager gameManager;
-
     void Start()
     {
         

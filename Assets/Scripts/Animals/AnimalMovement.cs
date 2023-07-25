@@ -34,8 +34,8 @@ public class AnimalMovement : MonoBehaviour
     public void StartMoving()
     {
         rb.drag = 10f;
-        if(gameObject.layer != 0)
-            gameObject.layer = 0;
+        if (gameObject.layer != LayerMask.NameToLayer("Animal"))
+            gameObject.layer = LayerMask.NameToLayer("Animal");
 
         if (!canMove)
         {

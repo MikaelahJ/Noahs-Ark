@@ -79,8 +79,9 @@ public class PickUp : MonoBehaviour
     {
         pickupText.text = "Drop [E]";
         playerManager.isHolding = true;
+        playerManager.animalHeld = closestPickup;
 
-        closestPickup.layer = 6;
+        closestPickup.layer = LayerMask.NameToLayer("IsHeld");
         closestPickup.GetComponent<AnimalMovement>().StopMoving();
         closestPickup.transform.SetParent(holdingPos);
         closestPickup.transform.position = holdingPos.position;

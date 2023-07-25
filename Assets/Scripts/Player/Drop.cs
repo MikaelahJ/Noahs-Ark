@@ -17,8 +17,10 @@ public class Drop : MonoBehaviour
 
     public void DropOrThrow(GameObject animal)
     {
-        if (!playerManager.isMoving) { DropAnimal(animal); Debug.Log("DROP"); }
-        else { ThrowAnimal(animal); Debug.Log("THROW"); }
+        if (!playerManager.isMoving) { DropAnimal(animal);}
+        else { ThrowAnimal(animal);}
+
+        playerManager.animalHeld = null;
     }
 
     private void DropAnimal(GameObject animal)

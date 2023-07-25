@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3259714587774766093}
   - component: {fileID: 5188638205574686529}
   - component: {fileID: 995141395196357001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Animal
   m_TagString: Pickupable
   m_Icon: {fileID: 0}
@@ -52,6 +52,7 @@ MonoBehaviour:
   canMove: 0
   isMoving: 0
   throwDistance: 10
+  throwDrag: 3
   moveSpeed: 3
 --- !u!114 &5537916416420196245
 MonoBehaviour:
