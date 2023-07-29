@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+public class UIManager : MonoBehaviour
 {
     #region singleton
-    public static GameManager instance { get; private set; }
+    public static UIManager instance { get; private set; }
 
     private void Awake()
     {
@@ -19,10 +20,15 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
-    public static GameManager GetInstance() { return instance; }
+    public static UIManager GetInstance() { return instance; }
 
     #endregion
 
+    [SerializeField] public RectTransform animalBoard;
 
+    public void SetupBoard(List<GameObject> animalsInLevel)
+    {
+
+    }
 
 }
