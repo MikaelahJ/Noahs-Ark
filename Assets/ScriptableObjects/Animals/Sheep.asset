@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bc994de2e064604c97eca17488b6b5c, type: 3}
-  m_Name: Cow
+  m_Name: Sheep
   m_EditorClassIdentifier: 
-  animalSprite: {fileID: 1912821220, guid: 5821ee904cc1bec4495f6aa3df9c0a42, type: 3}
-  animController: {fileID: 9100000, guid: 3f019fc546a68574abe006d72f0aab91, type: 2}
+  animalSprite: {fileID: 80335593, guid: 3caa9e5a115fc104296d0d65efbecb2d, type: 3}
+  animController: {fileID: 9100000, guid: 0e1b7c85485ff6b49a08167417b615e8, type: 2}
+  animalType: Sheep
   rotationSpeed: 3
   throwDistance: 10
-  throwDrag: 4
-  moveSpeed: 2
+  throwDrag: 3
+  moveSpeed: 3

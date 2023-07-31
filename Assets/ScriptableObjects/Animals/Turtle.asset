@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bc994de2e064604c97eca17488b6b5c, type: 3}
-  m_Name: Wolf
+  m_Name: Turtle
   m_EditorClassIdentifier: 
-  animalSprite: {fileID: -271822278, guid: e8aea4698d2c30641b7cf93946941d6a, type: 3}
-  animController: {fileID: 9100000, guid: 787d46bfbc917ec4cbc10f795cb67e16, type: 2}
+  animalSprite: {fileID: -885228582, guid: e80f062889f9d3c4a941073922996002, type: 3}
+  animController: {fileID: 9100000, guid: aff815ab279d07a45bbfb42faf2e55e8, type: 2}
+  animalType: Turtle
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 3

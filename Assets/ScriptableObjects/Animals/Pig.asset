@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bc994de2e064604c97eca17488b6b5c, type: 3}
-  m_Name: Toad
+  m_Name: Pig
   m_EditorClassIdentifier: 
-  animalSprite: {fileID: 1235109349, guid: d6644246baacfe0478864e2e4b99f71e, type: 3}
-  animController: {fileID: 9100000, guid: 2228daa37591bf84aa1f27073d2337cd, type: 2}
+  animalSprite: {fileID: 746408216, guid: 42aeaec6e81ee604795761faffdfd61b, type: 3}
+  animController: {fileID: 9100000, guid: 327998bdd66f4514ca9260c443e77924, type: 2}
+  animalType: Pig
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 3

@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bc994de2e064604c97eca17488b6b5c, type: 3}
-  m_Name: Moose
+  m_Name: Frog
   m_EditorClassIdentifier: 
-  animalSprite: {fileID: 981597006, guid: 3956b0d4817ae6b489abdf075d498ebb, type: 3}
-  animController: {fileID: 9100000, guid: 1245a70aa7455424a9b15c187ee23732, type: 2}
+  animalSprite: {fileID: -2007440259, guid: 0d7fc498ac4ae2442839f4f7de3d15fa, type: 3}
+  animController: {fileID: 9100000, guid: b1c231b4f3c80374286d4644c4b89813, type: 2}
+  animalType: Frog
   rotationSpeed: 3
-  throwDistance: 10
+  throwDistance: 15
   throwDrag: 3
   moveSpeed: 3

@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bc994de2e064604c97eca17488b6b5c, type: 3}
-  m_Name: Cat
+  m_Name: Skunk
   m_EditorClassIdentifier: 
-  animalSprite: {fileID: 520254321, guid: 2f7bd6ba07724f64eabf534b5c032076, type: 3}
-  animController: {fileID: 9100000, guid: 9dc841abb8451084c9620d0ea1c3bbd0, type: 2}
-  rotationSpeed: 4
-  throwDistance: 15
-  throwDrag: 2
-  moveSpeed: 5
+  animalSprite: {fileID: 524605126, guid: 063b51a740982c74991d57b779577a64, type: 3}
+  animController: {fileID: 9100000, guid: 36a2b1ed6d014bf4f9c97bdb6c95669d, type: 2}
+  animalType: Skunk
+  rotationSpeed: 3
+  throwDistance: 10
+  throwDrag: 3
+  moveSpeed: 3

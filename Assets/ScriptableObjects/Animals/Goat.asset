@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bc994de2e064604c97eca17488b6b5c, type: 3}
-  m_Name: Turtle
+  m_Name: Goat
   m_EditorClassIdentifier: 
-  animalSprite: {fileID: -885228582, guid: e80f062889f9d3c4a941073922996002, type: 3}
-  animController: {fileID: 9100000, guid: aff815ab279d07a45bbfb42faf2e55e8, type: 2}
+  animalSprite: {fileID: -1682180486, guid: b9416dcfb601b7541b5940977f250cf7, type: 3}
+  animController: {fileID: 9100000, guid: f3d0bbbc8a31f604d95303852f20a283, type: 2}
+  animalType: Goat
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 3

@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bc994de2e064604c97eca17488b6b5c, type: 3}
-  m_Name: Chicken
+  m_Name: Gorilla
   m_EditorClassIdentifier: 
-  animalSprite: {fileID: 1112284860, guid: 867a3d52bf6507c498fd2c5b3758bb97, type: 3}
-  animController: {fileID: 9100000, guid: 83cbe2d5667bca94f99fa486fd2c8ebd, type: 2}
+  animalSprite: {fileID: 307776835, guid: 18c37973fa106c14585289a8026abdae, type: 3}
+  animController: {fileID: 9100000, guid: 53cdaf7d4502c2e4c91aed87363fa067, type: 2}
+  animalType: Gorilla
   rotationSpeed: 3
-  throwDistance: 15
+  throwDistance: 10
   throwDrag: 3
   moveSpeed: 3

@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bc994de2e064604c97eca17488b6b5c, type: 3}
-  m_Name: Dog
+  m_Name: Porcupine
   m_EditorClassIdentifier: 
-  animalSprite: {fileID: 108545337, guid: dff719e3aca496f48a5ab9174b1753b7, type: 3}
-  animController: {fileID: 9100000, guid: a2a172c556a36b34fb6a539099176342, type: 2}
+  animalSprite: {fileID: 627729531, guid: dc6e60993fd2ad449a132751af97aa69, type: 3}
+  animController: {fileID: 9100000, guid: ed5d13ef828e7084d8d2625a8e7ac3d5, type: 2}
+  animalType: Porcupine
   rotationSpeed: 3
   throwDistance: 10
-  throwDrag: 2
-  moveSpeed: 4
+  throwDrag: 3
+  moveSpeed: 3
