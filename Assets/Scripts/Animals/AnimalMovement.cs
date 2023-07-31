@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class AnimalMovement : MonoBehaviour
 {
+    public AnimalData animalData;
+
     private Rigidbody2D rb;
 
     public bool canMove;
     public bool isMoving;
 
-    public float throwDistance = 10f;
-    public float throwDrag = 3f;
-    public float moveSpeed = 3f;
+    public float throwDistance;
+    public float throwDrag;
+    private float moveSpeed;
 
     private float minWaitTime = 1f;
     private float maxWaitTime = 5f;
@@ -22,6 +24,10 @@ public class AnimalMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        throwDistance = animalData.throwDistance;
+        throwDrag = animalData.throwDrag;
+        moveSpeed = animalData.moveSpeed;
 
         StartMovingInvoke();
     }

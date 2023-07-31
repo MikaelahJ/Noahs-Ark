@@ -5,13 +5,19 @@ using UnityEngine;
 
 public class AnimalAnimation : MonoBehaviour
 {
+    public AnimalData animalData;
     private AnimalMovement movementScript;
 
-    public float rotationSpeed = 3f;
+    private float rotationSpeed;
 
     void Start()
     {
         movementScript = GetComponent<AnimalMovement>();
+
+        rotationSpeed = animalData.rotationSpeed;
+        GetComponent<Animator>().runtimeAnimatorController = animalData.animController;
+        GetComponent<SpriteRenderer>().sprite = animalData.animalSprite;
+
     }
 
     void Update()

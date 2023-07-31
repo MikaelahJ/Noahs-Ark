@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2861194448382850185, guid: 6113f57640c7eec48b5b53a7315ae7f2, type: 3}
+      propertyPath: animalData
+      value: 
+      objectReference: {fileID: 11400000, guid: 58992deaf7df69943a6f1b7615edf4ca, type: 2}
     - target: {fileID: 3259714587774766093, guid: 6113f57640c7eec48b5b53a7315ae7f2, type: 3}
       propertyPath: m_Controller
       value: 
@@ -56,6 +60,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5537916416420196245, guid: 6113f57640c7eec48b5b53a7315ae7f2, type: 3}
+      propertyPath: animalData
+      value: 
+      objectReference: {fileID: 11400000, guid: 58992deaf7df69943a6f1b7615edf4ca, type: 2}
     - target: {fileID: 7629953865333670671, guid: 6113f57640c7eec48b5b53a7315ae7f2, type: 3}
       propertyPath: m_Name
       value: Goose
