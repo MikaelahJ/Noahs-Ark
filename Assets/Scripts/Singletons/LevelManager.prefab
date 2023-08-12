@@ -44,3 +44,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d99a696410f21234f890c59899e1d789, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelDataList: []
+  animalTypesInLevel:
+  - {fileID: 8427716955361740672, guid: 829c1171b6175764bae4910c6330bfc0, type: 3}
+  - {fileID: 6986688973417510547, guid: 0068016b8cc5f824890890dd11fd64f5, type: 3}
+  - {fileID: 3723468291794298491, guid: db515275e6a4deb4faf5b4d25a84f497, type: 3}
+  - {fileID: 3200383952375711041, guid: e9ff5719f92604c4185e8fb37196ebc2, type: 3}
+  - {fileID: 6379102319474916342, guid: 5dd480f21bd38ed4597432a324050186, type: 3}
+  - {fileID: 159900223086408538, guid: 9a13c62554a7f3b47bc16e1cb2c4bf43, type: 3}
+  - {fileID: 7319749479975308520, guid: f589df9d3c19ec14caf984c8d46d5bca, type: 3}
+  - {fileID: 6614239741907799877, guid: 79cfc8f44318d1d4c9950a48111c5d4c, type: 3}
+  - {fileID: 4531842776732752247, guid: 2cdd750d313976d4ebbf5dfe68d6f9da, type: 3}
+  - {fileID: 7909912278086816860, guid: e98c88f73a4b7a447925492fe6de6530, type: 3}
+  - {fileID: 353768857392606023, guid: 2136794fecef17342b7a76ce0ce91c4f, type: 3}
+  - {fileID: 8063236836619887422, guid: 85ba56f42d38dde4f812bdfa071586c3, type: 3}
+  - {fileID: 5038177746678080643, guid: 4e8e27bc23bb9354987d66444ac1f168, type: 3}
+  - {fileID: 8401936664082170635, guid: 52e13b3fd86355b4da90b050c2ecc6a0, type: 3}
+  - {fileID: 2420519649125827316, guid: 19961462809b05445837f709517a05a2, type: 3}
+  - {fileID: 6022110220720212900, guid: 9cfad026de41a1945bebf7a1cc125663, type: 3}
+  - {fileID: 493526488136937406, guid: 6ced037ea7e5ab140b0b1dae938454ee, type: 3}
+  - {fileID: 7199426384094482677, guid: f9d7b8b42de0dde4a9833d20170778cd, type: 3}
+  - {fileID: 6542835919476462403, guid: a8a9b671b0930924880cbf66f670f7bc, type: 3}
+  requiredPoints: 0
