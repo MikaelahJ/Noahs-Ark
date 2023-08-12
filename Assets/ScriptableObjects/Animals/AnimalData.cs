@@ -15,5 +15,8 @@ public class AnimalData : ScriptableObject
 
     public float throwDistance = 10f; //for movement
     public float throwDrag = 3f;
+    public float moveRadius = 5f;
     public float moveSpeed = 3f;
+    public float minWaitTime = 1f;
+    public float maxWaitTime = 5f;
 }

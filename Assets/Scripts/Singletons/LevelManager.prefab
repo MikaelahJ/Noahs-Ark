@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5457086198003557673}
   - component: {fileID: 1247181767588282437}
+  - component: {fileID: 2198248960923913739}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -66,3 +67,18 @@ MonoBehaviour:
   - {fileID: 7199426384094482677, guid: f9d7b8b42de0dde4a9833d20170778cd, type: 3}
   - {fileID: 6542835919476462403, guid: a8a9b671b0930924880cbf66f670f7bc, type: 3}
   requiredPoints: 0
+--- !u!114 &2198248960923913739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2288919809680972763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc953808f0c148a4da43ccd31f56469e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnAreaObject: {fileID: 0}
+  maxAttemts: 100
+  minDistanceBetweenSpawns: 2

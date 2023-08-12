@@ -13,11 +13,12 @@ public class AnimalMovement : MonoBehaviour
 
     public float throwDistance;
     public float throwDrag;
-    private float moveSpeed;
+    public float moveRadius;
+    public float moveSpeed;
+    public float minWaitTime;
+    public float maxWaitTime;
 
-    private float minWaitTime = 1f;
-    private float maxWaitTime = 5f;
-
+    private float maxStuckTime = 2f;
 
     private Coroutine movementCoroutine;
 
@@ -27,7 +28,10 @@ public class AnimalMovement : MonoBehaviour
 
         throwDistance = animalData.throwDistance;
         throwDrag = animalData.throwDrag;
+        moveRadius = animalData.moveRadius;
         moveSpeed = animalData.moveSpeed;
+        minWaitTime = animalData.minWaitTime;
+        maxWaitTime = animalData.maxWaitTime;
 
         StartMovingInvoke();
     }
@@ -72,12 +76,16 @@ public class AnimalMovement : MonoBehaviour
         {
             if (canMove)
             {
-                Vector2 randomPoint = Random.insideUnitCircle * 5;
+                Vector2 randomOffset = Random.insideUnitCircle * moveRadius;
+                Vector2 randomPoint = (Vector2)transform.position + randomOffset;
                 Vector3 targetPos = new Vector3(randomPoint.x, randomPoint.y, transform.position.z);
                 float distance = Vector3.Distance(transform.position, targetPos);
 
                 //checks if Sign between the points is negative or positive and flips sprite accordingly
                 GetComponent<SpriteRenderer>().flipX = Mathf.Sign(randomPoint.x - transform.position.x) < 0;
+
+                float stuckTime = 0f;
+                Vector3 prevPos = transform.position;
 
                 while (distance > 0.1f)
                 {
@@ -86,11 +94,25 @@ public class AnimalMovement : MonoBehaviour
                     Vector3 direction = (targetPos - transform.position).normalized;
                     rb.velocity = direction * moveSpeed;
 
-                    //transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+                    if(Vector3.Distance(transform.position, prevPos) < 0.3f)
+                    {
+                        stuckTime += Time.deltaTime;
+
+                        if (stuckTime > maxStuckTime)
+                        {
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        stuckTime = 0f;
+                    }
+                    prevPos = transform.position;
 
                     yield return null;
                     distance = Vector3.Distance(transform.position, targetPos);
                 }
+
                 isMoving = false;
                 rb.velocity = Vector3.zero;
 

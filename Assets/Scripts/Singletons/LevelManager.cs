@@ -12,9 +12,11 @@ public class LevelManager : MonoBehaviour
     public List<GameObject> animalTypesInLevel = new List<GameObject>();
     public int requiredPoints;
 
+    private SpawnObjectInArea spawnAnimal;
 
     private void Start()
     {
+        spawnAnimal = GetComponent<SpawnObjectInArea>();
         LoadLevelData();
     }
 
@@ -26,6 +28,7 @@ public class LevelManager : MonoBehaviour
 
         foreach (string assetGuid in assetGuids)
         {
+            //get the specific levelConfig at path and add to list
             string assetPath = AssetDatabase.GUIDToAssetPath(assetGuid);
             LevelConfig levelConfig = AssetDatabase.LoadAssetAtPath<LevelConfig>(assetPath);
 
@@ -60,14 +63,12 @@ public class LevelManager : MonoBehaviour
             {
                 string animalType = field.Name;
                 GameObject animal = animalTypesInLevel.Find(obj => obj.name == field.Name);
-                SpawnAnimal(animal);
+
+                for (int i = 0; i < 2; i++)//spawn 2 of each animal
+                {
+                    spawnAnimal.SpawnObject(animal);
+                }
             }
         }
-
-    }
-
-    public void SpawnAnimal(GameObject animal)
-    {
-        Instantiate(animal);
     }
 }
