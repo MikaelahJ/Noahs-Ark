@@ -23,9 +23,18 @@ public class GameManager : MonoBehaviour
 
     #endregion
 
-    private void Start()
+    public void FinishedLevel()
     {
-        
+        Debug.Log("done");
     }
 
+
+
+    /*TODO
+     * 
+     * if the level is done set PlayerManager.canMove = false and animal.canmove = false
+     * play some sort of cinematic
+     * start a new level
+     * 
+     */
 }

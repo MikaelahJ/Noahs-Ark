@@ -728,7 +728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94829399e10ba6d4e87891e03a47870b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AnimalsOnBoat: []
+  animalsOnBoat: []
 --- !u!1 &144125288
 GameObject:
   m_ObjectHideFlags: 0
@@ -2799,7 +2799,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731750256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6, y: 2.55, z: 0}
+  m_LocalPosition: {x: 13, y: -16.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3437,7 +3437,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810757945}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49.1, y: -6.2, z: 0}
+  m_LocalPosition: {x: 35.9, y: -6.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -110512,6 +110512,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1247181767588282437, guid: bd25ffc288fbe2d49ad584d03c2f88d3, type: 3}
+      propertyPath: animalTypesInLevel.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2198248960923913739, guid: bd25ffc288fbe2d49ad584d03c2f88d3, type: 3}
       propertyPath: spawnAreaObject
       value: 

@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelDataList: []
-  animalTypesInLevel:
+  allAnimalTypes:
   - {fileID: 8427716955361740672, guid: 829c1171b6175764bae4910c6330bfc0, type: 3}
   - {fileID: 6986688973417510547, guid: 0068016b8cc5f824890890dd11fd64f5, type: 3}
   - {fileID: 3723468291794298491, guid: db515275e6a4deb4faf5b4d25a84f497, type: 3}
@@ -66,6 +66,26 @@ MonoBehaviour:
   - {fileID: 493526488136937406, guid: 6ced037ea7e5ab140b0b1dae938454ee, type: 3}
   - {fileID: 7199426384094482677, guid: f9d7b8b42de0dde4a9833d20170778cd, type: 3}
   - {fileID: 6542835919476462403, guid: a8a9b671b0930924880cbf66f670f7bc, type: 3}
+  animalTypesInLevel:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   requiredPoints: 0
 --- !u!114 &2198248960923913739
 MonoBehaviour:

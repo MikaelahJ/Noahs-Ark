@@ -6,10 +6,30 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
+    #region singleton
+    public static LevelManager instance { get; private set; }
+
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+
+        instance = this;
+        DontDestroyOnLoad(this.gameObject);
+    }
+
+    public static LevelManager GetInstance() { return instance; }
+
+    #endregion
+
     private string levelDataPath = "Assets/ScriptableObjects/Levels";
     public List<LevelConfig> levelDataList = new List<LevelConfig>();
 
-    public List<GameObject> animalTypesInLevel = new List<GameObject>();
+    public List<GameObject> allAnimalTypes = new List<GameObject>();
+    public List<string> animalTypesInLevel = new List<string>();
     public int requiredPoints;
 
     private SpawnObjectInArea spawnAnimal;
@@ -48,7 +68,7 @@ public class LevelManager : MonoBehaviour
             LevelConfig currentLevel = levelDataList[levelIndex];
 
             requiredPoints = currentLevel.requiredPoints;
- 
+
             GetAnimals(currentLevel);
         }
     }
@@ -62,7 +82,9 @@ public class LevelManager : MonoBehaviour
             if (field.FieldType == typeof(bool) && (bool)field.GetValue(currentLevel))
             {
                 string animalType = field.Name;
-                GameObject animal = animalTypesInLevel.Find(obj => obj.name == field.Name);
+                animalTypesInLevel.Add(animalType);
+
+                GameObject animal = allAnimalTypes.Find(obj => obj.name == field.Name);
 
                 for (int i = 0; i < 2; i++)//spawn 2 of each animal
                 {
@@ -70,5 +92,7 @@ public class LevelManager : MonoBehaviour
                 }
             }
         }
+
+        GameObject.Find("Boat").GetComponentInChildren<BoatAnimalCounter>().addAnimalsToAnimalBools(animalTypesInLevel);
     }
 }

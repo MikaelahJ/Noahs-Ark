@@ -18,6 +18,7 @@ public class SpawnObjectInArea : MonoBehaviour
         if (IsFarEnoughFromOthers(randomPoint))
         {
             GameObject newObj = Instantiate(obj, randomPoint, Quaternion.identity);
+            newObj.name = obj.name;
             spawnedPositions.Add(randomPoint);
         }
     }
