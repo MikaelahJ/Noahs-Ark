@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class AnimalCounterUI : MonoBehaviour
+public class AnimalCanvasUI : MonoBehaviour
 {
     #region singleton
-    public static AnimalCounterUI instance { get; private set; }
+    public static AnimalCanvasUI instance { get; private set; }
 
     private void Awake()
     {
@@ -21,7 +21,7 @@ public class AnimalCounterUI : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
-    public static AnimalCounterUI GetInstance() { return instance; }
+    public static AnimalCanvasUI GetInstance() { return instance; }
 
     #endregion
 
@@ -36,7 +36,7 @@ public class AnimalCounterUI : MonoBehaviour
 
         var animal = Instantiate(UIanimalPrefab, board);
 
-        animal.GetComponentInChildren<TextMeshProUGUI>().text = name;
-        animal.GetComponentInChildren<SpriteRenderer>().sprite = image;
+        animal.GetComponentInChildren<TextMeshProUGUI>().text = name + " (0/0)";
+        animal.GetComponentInChildren<Image>().sprite = image;
     }
 }

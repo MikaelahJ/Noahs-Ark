@@ -26,8 +26,8 @@ public class LevelManager : MonoBehaviour
 
     #endregion
 
-    [SerializeField] private Canvas animalCounterUIPrefab;
-    private Canvas animalCounterUI;
+    [SerializeField] private Canvas animalCanvasPrefab;
+    private AnimalCanvasUI animalCanvasUI;
 
     private string levelDataPath = "Assets/ScriptableObjects/Levels";
     public List<LevelConfig> levelDataList = new List<LevelConfig>();
@@ -67,8 +67,10 @@ public class LevelManager : MonoBehaviour
 
     public void StartLevel(int levelIndex)
     {
-        animalCounterUI = Instantiate(animalCounterUIPrefab);
+        var canvas = Instantiate(animalCanvasPrefab);
+        animalCanvasUI = canvas.GetComponent<AnimalCanvasUI>();
 
+            Debug.Log(animalCanvasUI);
         if (levelIndex < levelDataList.Count)
         {
             LevelConfig currentLevel = levelDataList[levelIndex];
@@ -92,13 +94,15 @@ public class LevelManager : MonoBehaviour
 
                 GameObject animal = allAnimalTypes.Find(obj => obj.name == field.Name);
 
+                //add animal to animalCounter UI
+                animalCanvasUI.AddToBoard(animal);
+
                 for (int i = 0; i < 2; i++)//spawn 2 of each animal
                 {
                     spawnAnimal.SpawnObject(animal);
                 }
 
-                //add animal to animalCounter UI
-                animalCounterUI.GetComponent<AnimalCounterUI>().AddToBoard(animal);
+
             }
         }
 
