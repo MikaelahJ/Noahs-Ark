@@ -70,7 +70,6 @@ public class LevelManager : MonoBehaviour
         var canvas = Instantiate(animalCanvasPrefab);
         animalCanvasUI = canvas.GetComponent<AnimalCanvasUI>();
 
-            Debug.Log(animalCanvasUI);
         if (levelIndex < levelDataList.Count)
         {
             LevelConfig currentLevel = levelDataList[levelIndex];
@@ -101,8 +100,6 @@ public class LevelManager : MonoBehaviour
                 {
                     spawnAnimal.SpawnObject(animal);
                 }
-
-
             }
         }
 

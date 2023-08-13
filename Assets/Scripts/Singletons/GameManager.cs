@@ -30,11 +30,5 @@ public class GameManager : MonoBehaviour
 
 
 
-    /*TODO
-     * 
-     * if the level is done set PlayerManager.canMove = false and animal.canmove = false
-     * play some sort of cinematic
-     * start a new level
-     * 
-     */
+
 }

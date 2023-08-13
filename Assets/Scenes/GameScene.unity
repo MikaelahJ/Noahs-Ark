@@ -106038,10 +106038,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2198248960923913739, guid: bd25ffc288fbe2d49ad584d03c2f88d3, type: 3}
-      propertyPath: spawnAreaObject
-      value: 
-      objectReference: {fileID: 1213087197}
     - target: {fileID: 2288919809680972763, guid: bd25ffc288fbe2d49ad584d03c2f88d3, type: 3}
       propertyPath: m_Name
       value: LevelManager

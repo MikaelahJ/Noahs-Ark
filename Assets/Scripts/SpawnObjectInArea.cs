@@ -6,11 +6,19 @@ using UnityEngine;
 
 public class SpawnObjectInArea : MonoBehaviour
 {
-    public GameObject spawnAreaObject;
-    public int maxAttemts = 100;
-    public float minDistanceBetweenSpawns = 2f;
+    [SerializeField] private int maxAttemts = 100;
+    [SerializeField] private float minDistanceBetweenSpawns = 2.5f;
 
+    private GameObject spawnAreaObject;
     private List<Vector2> spawnedPositions = new List<Vector2>();
+
+    private void Start()
+    {
+        spawnAreaObject = GameObject.Find("SpawnBoundry");
+
+        if (spawnAreaObject == null)
+            Debug.LogWarning("no SpawnBoundry GameObject found");
+    }
 
     public void SpawnObject(GameObject obj)
     {
@@ -55,9 +63,9 @@ public class SpawnObjectInArea : MonoBehaviour
 
     private bool IsPointWithinSpawnArea(Vector2 point)
     {
-        foreach(PolygonCollider2D collider in spawnAreaObject.GetComponents<PolygonCollider2D>())
+        foreach (PolygonCollider2D collider in spawnAreaObject.GetComponents<PolygonCollider2D>())
         {
-            if(collider.OverlapPoint(point)) 
+            if (collider.OverlapPoint(point))
                 return true;
         }
 
@@ -68,7 +76,7 @@ public class SpawnObjectInArea : MonoBehaviour
     {
         foreach (Vector2 existingPosition in spawnedPositions)
         {
-            if(Vector2.Distance(point, existingPosition) < minDistanceBetweenSpawns) 
+            if (Vector2.Distance(point, existingPosition) < minDistanceBetweenSpawns)
                 return false; //too close to another spawned object
         }
 

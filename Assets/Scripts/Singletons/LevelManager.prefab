@@ -81,6 +81,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc953808f0c148a4da43ccd31f56469e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnAreaObject: {fileID: 0}
   maxAttemts: 100
-  minDistanceBetweenSpawns: 2
+  minDistanceBetweenSpawns: 2.5
