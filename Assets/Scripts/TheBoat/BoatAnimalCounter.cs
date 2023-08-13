@@ -47,10 +47,15 @@ public class BoatAnimalCounter : MonoBehaviour
                     animalBools[collision.gameObject.name] += 1;
                     Debug.Log("added to existing" + animalBools[collision.gameObject.name]);
                 }
-
+                UpdateUI();
                 isBoatFull();
             }
         }
+    }
+
+    private void UpdateUI()
+    {
+        
     }
 
     private void isBoatFull()
@@ -59,8 +64,6 @@ public class BoatAnimalCounter : MonoBehaviour
 
         if (allBoolsTrue)
             gameManager.FinishedLevel();
-        else
-            Debug.Log("false");
     }
 
 
@@ -68,7 +71,7 @@ public class BoatAnimalCounter : MonoBehaviour
     /*TODO
      * list of all animals in boat DONE
      * add and remove on the trigger collider DONE
-     * update to GameManager when all animals on boat
+     * update to GameManager when all animals on boat DONE
      * update some sort of UI to show how many animals you have and how many are left on the island
      * 
      * BUG

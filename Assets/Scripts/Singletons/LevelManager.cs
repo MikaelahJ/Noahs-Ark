@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEditor.UI;
 
 public class LevelManager : MonoBehaviour
 {
@@ -24,6 +25,9 @@ public class LevelManager : MonoBehaviour
     public static LevelManager GetInstance() { return instance; }
 
     #endregion
+
+    [SerializeField] private Canvas animalCounterUIPrefab;
+    private Canvas animalCounterUI;
 
     private string levelDataPath = "Assets/ScriptableObjects/Levels";
     public List<LevelConfig> levelDataList = new List<LevelConfig>();
@@ -63,6 +67,8 @@ public class LevelManager : MonoBehaviour
 
     public void StartLevel(int levelIndex)
     {
+        animalCounterUI = Instantiate(animalCounterUIPrefab);
+
         if (levelIndex < levelDataList.Count)
         {
             LevelConfig currentLevel = levelDataList[levelIndex];
@@ -90,6 +96,9 @@ public class LevelManager : MonoBehaviour
                 {
                     spawnAnimal.SpawnObject(animal);
                 }
+
+                //add animal to animalCounter UI
+                animalCounterUI.GetComponent<AnimalCounterUI>().AddToBoard(animal);
             }
         }
 
