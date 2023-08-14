@@ -28,6 +28,7 @@ public class AnimalCanvasUI : MonoBehaviour
     [SerializeField] public RectTransform board;
     [SerializeField] public RectTransform UIanimalPrefab;
 
+    public Dictionary<string, RectTransform> animalsOnBoard = new Dictionary<string, RectTransform>();
 
     public void AddToBoard(GameObject animalToAdd)
     {
@@ -36,7 +37,16 @@ public class AnimalCanvasUI : MonoBehaviour
 
         var animal = Instantiate(UIanimalPrefab, board);
 
-        animal.GetComponentInChildren<TextMeshProUGUI>().text = name + " (0/0)";
+        animal.GetComponentInChildren<TextMeshProUGUI>().text = name + " (0/2)";
         animal.GetComponentInChildren<Image>().sprite = image;
+
+        animalsOnBoard.Add(name, animal);
+    }
+
+    public void UpdateBoard(string animalName, int amount)
+    {
+        string numString = " (" + amount + "/2)";
+
+        animalsOnBoard[animalName].GetComponentInChildren<TextMeshProUGUI>().text = animalName + numString;
     }
 }

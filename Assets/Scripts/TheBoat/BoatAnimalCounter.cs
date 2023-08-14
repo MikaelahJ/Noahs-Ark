@@ -8,6 +8,9 @@ public class BoatAnimalCounter : MonoBehaviour
     private GameManager gameManager;
     private PlayerManager playerManager;
 
+    private AnimalCanvasUI animalBoard;
+    
+
     public List<GameObject> animalsOnBoat = new List<GameObject>();
     public Dictionary<string, int> animalBools = new Dictionary<string, int>();
 
@@ -15,7 +18,9 @@ public class BoatAnimalCounter : MonoBehaviour
     {
         gameManager = GameManager.GetInstance();
         playerManager = PlayerManager.GetInstance();
+        animalBoard = LevelManager.instance.animalCanvasUI;
     }
+
     public void addAnimalsToAnimalBools(List<string> animals)
     {
         foreach (var animal in animals)
@@ -36,6 +41,7 @@ public class BoatAnimalCounter : MonoBehaviour
                 {
                     animalBools[collision.gameObject.name] -= 1;
                     Debug.Log("removed" + animalBools[collision.gameObject.name]);
+                   animalBoard.UpdateBoard(collision.gameObject.name, animalBools[collision.gameObject.name]);
                 }
             }
             else if (!animalsOnBoat.Contains(collision.gameObject))
@@ -46,16 +52,12 @@ public class BoatAnimalCounter : MonoBehaviour
                 {
                     animalBools[collision.gameObject.name] += 1;
                     Debug.Log("added to existing" + animalBools[collision.gameObject.name]);
+                    animalBoard.UpdateBoard(collision.gameObject.name, animalBools[collision.gameObject.name]);
                 }
-                UpdateUI();
+
                 isBoatFull();
             }
         }
-    }
-
-    private void UpdateUI()
-    {
-        
     }
 
     private void isBoatFull()

@@ -8,12 +8,13 @@ public class TODOlist : MonoBehaviour
     * 
     * if the level is done set PlayerManager.canMove = false and animal.canmove = false
     * play some sort of cinematic
-    * start a new level
+    * start a new level - logic pretty much done
     * 
 
     * Animals
     * 
     * tweak stats so some move longer but less often and stuff like that
+    * wiggle animation when holding
     * 
 
     * Player
@@ -22,18 +23,19 @@ public class TODOlist : MonoBehaviour
     * maybe a whole different character
     * 
 
-    * BoatAnimalCounter
+    * BoatAnimalCounter - DONE
     * 
-    * list of all animals in boat DONE
-    * add and remove on the trigger collider DONE
-    * update to GameManager when all animals on boat DONE
-    * update some sort of UI to show how many animals you have and how many are left on the island
+    * list of all animals in boat - DONE
+    * add and remove on the trigger collider - DONE
+    * update to GameManager when all animals on boat - DONE
+    * update some sort of UI to show how many animals you have and how many are left on the island - DONE
     * 
     *
     
     * Ocean script
     * 
     * make the water animated
+    * waves hitting the cliffs animations
     * make a wave or some sort of flood but the boat area must be submerged last so i think a slow wave is better
     * or possibly multiple waves that cover like a part that becomes submerged
     * 
@@ -45,6 +47,7 @@ public class TODOlist : MonoBehaviour
     * set colliders on wall type tiles
     * set out decorative tiles
     * make the map more interesting
+    * 
 
 
     * BUGS

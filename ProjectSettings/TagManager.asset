@@ -42,6 +42,9 @@ TagManager:
   - name: Ground
     uniqueID: 2526705395
     locked: 0
+  - name: Sea
+    uniqueID: 3784142895
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

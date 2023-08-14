@@ -27,7 +27,7 @@ public class LevelManager : MonoBehaviour
     #endregion
 
     [SerializeField] private Canvas animalCanvasPrefab;
-    private AnimalCanvasUI animalCanvasUI;
+    public AnimalCanvasUI animalCanvasUI;
 
     private string levelDataPath = "Assets/ScriptableObjects/Levels";
     public List<LevelConfig> levelDataList = new List<LevelConfig>();
@@ -61,11 +61,9 @@ public class LevelManager : MonoBehaviour
                 levelDataList.Add(levelConfig);
             }
         }
-
-        StartLevel(0);
     }
 
-    public void StartLevel(int levelIndex)
+    public void SetupLevel(int levelIndex)
     {
         var canvas = Instantiate(animalCanvasPrefab);
         animalCanvasUI = canvas.GetComponent<AnimalCanvasUI>();
