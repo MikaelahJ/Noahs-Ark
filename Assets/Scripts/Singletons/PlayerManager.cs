@@ -29,14 +29,4 @@ public class PlayerManager : MonoBehaviour
     public bool isMoving;
     public bool canMove;
 
-
-    void Start()
-    {
-
-    }
-
-    void Update()
-    {
-
-    }
 }

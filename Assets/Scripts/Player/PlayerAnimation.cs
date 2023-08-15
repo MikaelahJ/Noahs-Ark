@@ -5,22 +5,29 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
+    private PlayerManager playerManager;
+
     private Animator animator;
     private Rigidbody2D rb;
 
     void Start()
     {
+        playerManager = PlayerManager.GetInstance();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-
     }
 
     void Update()
     {
         if (rb.velocity.magnitude > 0)
-            animator.SetBool("isMoving", true);
+            animator.SetBool("IsMoving", true);
         else
-            animator.SetBool("isMoving", false);
+            animator.SetBool("IsMoving", false);
+
+        if (playerManager.isHolding)
+            animator.SetBool("IsHolding", true);
+        else
+            animator.SetBool("IsHolding", false);
 
 
         if (Input.GetAxisRaw("Horizontal") > 0)

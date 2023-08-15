@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e354ab15616bd2a418b1d59f91219994
+guid: c9ac1ddefd80e21418a0a41527a50995
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CharIdle_0
+      name: CharWalkHolding_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,20 +118,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1faaeeffd6fb2c4dad9254feb2e241c
-      internalID: -1034436982
+      spriteID: 6de785f7be6762744bc02340b19b294b
+      internalID: 1611858522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharIdle_1
+      name: CharWalkHolding_1
       rect:
         serializedVersion: 2
         x: 32
@@ -139,14 +139,119 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16db7644c5d31944595d142353fb2a40
-      internalID: -654754179
+      spriteID: de8a202ab9fbb0f48a8ef56b60f56819
+      internalID: -1208399268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharWalkHolding_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdcd30cd29d6ab40ba7c1fad463f95c
+      internalID: -1307944923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharWalkHolding_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb2fb9a75d846747a03f0aa68e90405
+      internalID: 1854540869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharWalkHolding_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7aa45503a26a494b8e001154fbe3a6a
+      internalID: 1600569974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharWalkHolding_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da1e690c1c1d4e4aa3419184599bec9
+      internalID: 1091382634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharWalkHolding_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360e24197f35d5c46a8c61f6a152fce5
+      internalID: 940595204
       vertices: []
       indices: 
       edges: []
@@ -162,8 +267,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CharIdle_0: -1034436982
-      CharIdle_1: -654754179
+      CharWalkHolding_0: 1611858522
+      CharWalkHolding_1: -1208399268
+      CharWalkHolding_2: -1307944923
+      CharWalkHolding_3: 1854540869
+      CharWalkHolding_4: 1600569974
+      CharWalkHolding_5: 1091382634
+      CharWalkHolding_6: 940595204
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
