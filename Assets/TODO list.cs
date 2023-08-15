@@ -54,6 +54,7 @@ public class TODOlist : MonoBehaviour
     * 
     * can throw through walls
     * Sometimes animals start to move when holding, they stop when player is moving though
+    * Pickup text not always working
     * 
     */
 }

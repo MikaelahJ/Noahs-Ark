@@ -5,8 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private PlayerManager playerManager;
-
-    private Rigidbody2D rb;
+    private Rigidbody2D rb; 
 
     public Vector2 dir;
 

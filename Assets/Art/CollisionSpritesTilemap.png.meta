@@ -1,0 +1,2836 @@
+fileFormatVersion: 2
+guid: 0f23838fdba1d5140a09fcb7f1f54c8c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_8
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 513
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ce6772435ac544b9f3cf615393493f
+      internalID: -100084048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_9
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 513
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e32ec0c315c5d94c8baea73a7ea3750
+      internalID: 589418469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_10
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 513
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83c5c677e90d8c4fb1955d2f38725da
+      internalID: 803072825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_18
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4a5da5bf3c31c438a587f21afd0c85
+      internalID: 20874952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_20
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1518713eb716848a727a9e2fd86c6b
+      internalID: 1209021417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_21
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1063fe4637ce8d4c875bda5dea66204
+      internalID: 1046958696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_23
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fdff6dc0dc8f44dbe98782d7aca15e
+      internalID: -769910335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_24
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa306627eb62614988c403edbb9a776
+      internalID: 215669142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_25
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add38ae6bd0ad9540b2f5ff9f30b0739
+      internalID: 1370315774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_33
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 445
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bb5b87cb672a943a7fd037f7320c9e
+      internalID: -1678695307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_34
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 445
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0d995e05e879a4ea2f4aceb3a2d92a
+      internalID: 1142406465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_35
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 445
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3a3d8b4cf4cde41bbbbf18532ff25f
+      internalID: 1606944847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_36
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 445
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee46217e52e18146a0ba3071694d61a
+      internalID: -123183913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_37
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 445
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a74912f67de3d49b36d814d6ca857d
+      internalID: 1594703866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_38
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 445
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a52ad324d39c145aea58393ee46f4b
+      internalID: -600066778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_46
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 411
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7d13ce61c7f114db3ec47ee1d25682
+      internalID: 1181857518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_47
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 411
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ccce40bb0a5f548a03d1a4668fe6f6
+      internalID: 1815896574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_48
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 411
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5e6e8f3cae14c4fbace5bfb6013f46
+      internalID: -1797679095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_49
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 411
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd097157fffd394b8b2c87c91c034d0
+      internalID: 2425893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_50
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 411
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5e1837ed915174ba87ed71eea69551
+      internalID: -1779516812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_51
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 411
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d304426e89664924b819ec7a8cf16e48
+      internalID: 1097297542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a68716416a5ba4bad97e806d73eaee
+      internalID: -1626931669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_53
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32d6f1823de963459bc2e0e6ec872ae
+      internalID: 1024722545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_54
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e9eef84bf55384da4f4fc5b04a5447
+      internalID: -35001542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_55
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111656d80c124f6488718e1dd5a8a80d
+      internalID: 2119170528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_56
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2fadb27c6124f49b8f8aeecd03f720
+      internalID: -886022489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_60
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b473018f977631343ac83917f53596d4
+      internalID: 1095996582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_61
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f1666f4080b7b4abeb9f454f3e144a
+      internalID: -329615831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_62
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe0ac5fa6dcb21468cea312e20732e6
+      internalID: -2040127437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_63
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c399f422c6b0ee348991d67f8a77473e
+      internalID: -586490448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_64
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42984f89668d1c341bcaa20d87e69b13
+      internalID: -1025307769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_65
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f15bb4eddfe333479d4425a5b0f4247
+      internalID: -446471040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_66
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5735bf74393414ab176c5d7f66e3a1
+      internalID: 531915569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_69
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 343
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3289e95a4043cf341aa1ed770e39d666
+      internalID: -82354066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_72
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa5554902ce0ea42a8c41fe46ca59d1
+      internalID: -1261395729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_73
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd50ea7a8bade6438e969bef70271a3
+      internalID: -1256398972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_75
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73045da6faca7dd4186059c7d29970dd
+      internalID: -1247970884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_76
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765e3422f79afaa41bd5b1570d619dc5
+      internalID: -1660328239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_77
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36be30b8f3cdc37419a503411e6f530c
+      internalID: 816169044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_78
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4243a2f4a915b479f0e2bf5b637e62
+      internalID: -763472416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_79
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34c1b655d669d8478868218825b51f3
+      internalID: -217896887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_80
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adfbbc294060974c83680caedcfa5ea
+      internalID: 449698451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_84
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bf572488e8d9f4f80e37f3f6a5cde0
+      internalID: 1755859192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_85
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9063ab6f00a04094abef79fb8bcd8121
+      internalID: 1802694391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_86
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7957fa9a408d35b418c5d936665384f0
+      internalID: 1951898524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_87
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 311
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf22bc1783ac6a47ae155108b1a2a27
+      internalID: -29174147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_88
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea6ef8b929ba2a43afccfa9e554cbf1
+      internalID: 1069565018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_89
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61765f7954be874c8bb0dd5a069179b
+      internalID: -965088000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_90
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cb9f9435dbede4695755ab2a31c35c
+      internalID: -1765858971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_91
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b571f9f12b063184baac043af120f1b1
+      internalID: 552359525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_95
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a813253a3cc524589bd473cdea72a1
+      internalID: 498198746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_96
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d613dcd8fd6054abb51650391069dd
+      internalID: -1228197273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_97
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8f1fb4b6358fd45b21c89f0d353762
+      internalID: -397174022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_99
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52e8e8cce12fca489a485193c427de5
+      internalID: 2093906924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_104
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b630356a11b52a141b7441c8b97216c9
+      internalID: -1115358608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_105
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943dc7bfba186c943b5d9a0c098ad174
+      internalID: -2047753439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_106
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e7d8ba0e94dc048b6cebee86a076b6
+      internalID: -20561108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_110
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be83a13040d37ef40afbc2439b2c4481
+      internalID: 1932896570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_111
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eade60ae91d61334aad487fef08820b7
+      internalID: -315005158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_112
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9292bb6ea656ac741a002123c2016813
+      internalID: 434748806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_114
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1af42499abdc34d88f820f274e5dd9
+      internalID: -382782208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_116
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 241
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d570f92a8a17141abb2677530d4ba4
+      internalID: -1518027132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_118
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 241
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb6bfa78344da84fa42dabdbdc1e0fc
+      internalID: -2056948809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_119
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4128ff01fbe3c34a897390ad3788575
+      internalID: -1098154057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_120
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5222044747d52e4d8230072074986c3
+      internalID: 1747768074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_121
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6639da9c017744ca3f4f60fb57b851
+      internalID: -1742098878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_122
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16949efe515ea5d449900195a07a4c06
+      internalID: -2059454186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_126
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfaa326a241381f40816402dc17c5238
+      internalID: -257642673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_127
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5c61a951236d74cb95c74d68f8d031
+      internalID: -2008157427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_128
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa78a34dd8c08fc4790fcdbbb39be08b
+      internalID: 2100908598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_130
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb23c26da90cdeb42b1da045cb1652ad
+      internalID: 157273803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_135
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4475e85cde54a408fd469b1841dbf0
+      internalID: -1112939291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_136
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cab5c2355c3e2409810a077d8c8542
+      internalID: 1373031402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_137
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6070b9f38780df747a0566e49193336a
+      internalID: 797376732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_138
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe2a567bce88434689fb14f0beacffa
+      internalID: -1623157770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_144
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0862ef640701184fac22fb366f5a642
+      internalID: 387541062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_145
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1ad77a78feb5d4296b2d0471473cf6
+      internalID: -674193676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_146
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa71f3775fb056144b5b61b526f91bfd
+      internalID: -71678415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_148
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 173
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2254e18e6afc19a4f939d7d828732759
+      internalID: 124934485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_150
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 173
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333c563b9a9796f47882191f51136b53
+      internalID: -1768361672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_152
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 173
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527b20146d98d8849a76a2ca9cda7b9f
+      internalID: -1113918669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_153
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53e45e1bc849e64f8d07b32e98c995b
+      internalID: -1413626411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_154
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9a83acef50f894baec2ba34b9065b6
+      internalID: -1841664953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_155
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 139
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964aa238bfc78f046a92f743cc4ecb1c
+      internalID: 1655681276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_156
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 139
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc074b79a1370644af8b74a2c2418af
+      internalID: -55856893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_157
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 139
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969b68b1bc8e4e34ba052548697f578b
+      internalID: 380446047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_158
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 97
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b8e9c5a0d185949957901b20ca6737
+      internalID: 1302150736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_159
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533610c3c75090544a3dbc2ef6fbb8a8
+      internalID: -1307684218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_160
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de87319e9656e5747b88061000710288
+      internalID: 61903211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_161
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 136
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476a96b1248e4f3478650f51e38a87db
+      internalID: 23552363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_164
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 136
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a7b848ee21ded4fb5115fe45ee467c
+      internalID: -1414388062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_168
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 139
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da752361c207fd43974cd841102b8ff
+      internalID: 721948271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_170
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 139
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01450e42c2649f34392e054c74846fb8
+      internalID: 153406740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_171
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 139
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d717dd49a20ea48898a5728b78c52f
+      internalID: 1690082618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_172
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 139
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758a23b16d03f12419abc8fb0a9dbb76
+      internalID: 299363272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_175
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 105
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d9ba4d3bef881409c04eebaa8fb989
+      internalID: 1986241303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_176
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb97f8006a0c4e4495fbe942007ea7a
+      internalID: 2135526909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_179
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 97
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb850edf64860ff4a88be2c9dd6708cf
+      internalID: -1666497026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_180
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 102
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d7271d8116bd04cb451ba157fc982d
+      internalID: -710562111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_183
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 102
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e8317e71c929749a972a901efe0a8f
+      internalID: -1818977048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_192
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 71
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ff6a9085ca7944994357b90db9253f
+      internalID: -1694650376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_193
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 71
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dc7f8fe42cfca47a3e25d571fd9960
+      internalID: -109615654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_194
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 71
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213e7e81bc2d91546a9c766f96d31c95
+      internalID: 186402022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_195
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2debd1755cefa545b5ff3c6ff9a2f55
+      internalID: 292998256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_197
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f6f12ad8ae6444693eded693311d08
+      internalID: -120970094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_198
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f352e6e9f903d4049a0e57a5dadabc69
+      internalID: -562769732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_199
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 68
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7043bf06da44bf34eabe8181e508bf74
+      internalID: -1050258610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_202
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 68
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814f0b1cad16c0d429a1f045b2e7067c
+      internalID: 1651903971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_211
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6462cde6c4d4146a1afb757fdb7c82
+      internalID: -1380434438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_212
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e422b9d595f633a4baa8bc44b4db246b
+      internalID: 1393274211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_213
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef04511b90b930041a2ea77532cbe44a
+      internalID: -1640377031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_217
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 37
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d9bca5cf7f4e840acbe96d0a9be0ef
+      internalID: 228818778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_219
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 37
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fe62c25ea18144dba1ee742293642b
+      internalID: 881447033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_221
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 37
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5e9461b7fa63e49b7dac9f1a29d9ae
+      internalID: -482455796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_223
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 37
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb28a5218082a94ebcceaea56eb1f05
+      internalID: -203495895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_224
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba60a71e57a93624b94b7077f43d41e5
+      internalID: -959242566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_228
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e6b172a50bd074fb08a18783013134
+      internalID: -811319647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CollisionSpritesTilemap_229
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298d31c946f2c9f458f6858738b038ac
+      internalID: -830328940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CollisionSpritesTilemap_0: 811266361
+      CollisionSpritesTilemap_1: -2026714494
+      CollisionSpritesTilemap_10: 803072825
+      CollisionSpritesTilemap_100: 1588447882
+      CollisionSpritesTilemap_101: 1290061020
+      CollisionSpritesTilemap_102: -1111065975
+      CollisionSpritesTilemap_103: 1445225039
+      CollisionSpritesTilemap_104: -1115358608
+      CollisionSpritesTilemap_105: -2047753439
+      CollisionSpritesTilemap_106: -20561108
+      CollisionSpritesTilemap_107: -916892905
+      CollisionSpritesTilemap_108: -238781406
+      CollisionSpritesTilemap_109: -735061265
+      CollisionSpritesTilemap_11: -1771761094
+      CollisionSpritesTilemap_110: 1932896570
+      CollisionSpritesTilemap_111: -315005158
+      CollisionSpritesTilemap_112: 434748806
+      CollisionSpritesTilemap_113: 328558424
+      CollisionSpritesTilemap_114: -382782208
+      CollisionSpritesTilemap_115: 43953189
+      CollisionSpritesTilemap_116: -1518027132
+      CollisionSpritesTilemap_117: 603009052
+      CollisionSpritesTilemap_118: -2056948809
+      CollisionSpritesTilemap_119: -1098154057
+      CollisionSpritesTilemap_12: -407016193
+      CollisionSpritesTilemap_120: 1747768074
+      CollisionSpritesTilemap_121: -1742098878
+      CollisionSpritesTilemap_122: -2059454186
+      CollisionSpritesTilemap_123: -995659039
+      CollisionSpritesTilemap_124: 2092217437
+      CollisionSpritesTilemap_125: -1615521635
+      CollisionSpritesTilemap_126: -257642673
+      CollisionSpritesTilemap_127: -2008157427
+      CollisionSpritesTilemap_128: 2100908598
+      CollisionSpritesTilemap_129: 1422343720
+      CollisionSpritesTilemap_13: -1251050612
+      CollisionSpritesTilemap_130: 157273803
+      CollisionSpritesTilemap_131: -856118555
+      CollisionSpritesTilemap_132: -790896037
+      CollisionSpritesTilemap_133: 38901481
+      CollisionSpritesTilemap_134: -352498380
+      CollisionSpritesTilemap_135: -1112939291
+      CollisionSpritesTilemap_136: 1373031402
+      CollisionSpritesTilemap_137: 797376732
+      CollisionSpritesTilemap_138: -1623157770
+      CollisionSpritesTilemap_139: 816052649
+      CollisionSpritesTilemap_14: 1112914046
+      CollisionSpritesTilemap_140: -212817264
+      CollisionSpritesTilemap_141: -1457996367
+      CollisionSpritesTilemap_142: -111209330
+      CollisionSpritesTilemap_143: 1766318796
+      CollisionSpritesTilemap_144: 387541062
+      CollisionSpritesTilemap_145: -674193676
+      CollisionSpritesTilemap_146: -71678415
+      CollisionSpritesTilemap_147: -2026695025
+      CollisionSpritesTilemap_148: 124934485
+      CollisionSpritesTilemap_149: 911211501
+      CollisionSpritesTilemap_15: 2082965695
+      CollisionSpritesTilemap_150: -1768361672
+      CollisionSpritesTilemap_151: 951204430
+      CollisionSpritesTilemap_152: -1113918669
+      CollisionSpritesTilemap_153: -1413626411
+      CollisionSpritesTilemap_154: -1841664953
+      CollisionSpritesTilemap_155: 1655681276
+      CollisionSpritesTilemap_156: -55856893
+      CollisionSpritesTilemap_157: 380446047
+      CollisionSpritesTilemap_158: 1302150736
+      CollisionSpritesTilemap_159: -1307684218
+      CollisionSpritesTilemap_16: -1499670528
+      CollisionSpritesTilemap_160: 61903211
+      CollisionSpritesTilemap_161: 23552363
+      CollisionSpritesTilemap_162: -1698361390
+      CollisionSpritesTilemap_163: 711614483
+      CollisionSpritesTilemap_164: -1414388062
+      CollisionSpritesTilemap_165: 1576825560
+      CollisionSpritesTilemap_166: 997811020
+      CollisionSpritesTilemap_167: 1514203827
+      CollisionSpritesTilemap_168: 721948271
+      CollisionSpritesTilemap_169: 2041892449
+      CollisionSpritesTilemap_17: 1985667084
+      CollisionSpritesTilemap_170: 153406740
+      CollisionSpritesTilemap_171: 1690082618
+      CollisionSpritesTilemap_172: 299363272
+      CollisionSpritesTilemap_173: 544602456
+      CollisionSpritesTilemap_174: 1673735372
+      CollisionSpritesTilemap_175: 1986241303
+      CollisionSpritesTilemap_176: 2135526909
+      CollisionSpritesTilemap_177: 276725935
+      CollisionSpritesTilemap_178: -1557368328
+      CollisionSpritesTilemap_179: -1666497026
+      CollisionSpritesTilemap_18: 20874952
+      CollisionSpritesTilemap_180: -710562111
+      CollisionSpritesTilemap_181: 1071071003
+      CollisionSpritesTilemap_182: 1911005541
+      CollisionSpritesTilemap_183: -1818977048
+      CollisionSpritesTilemap_184: -1861011798
+      CollisionSpritesTilemap_185: -802946853
+      CollisionSpritesTilemap_186: -2001729893
+      CollisionSpritesTilemap_187: 1026785404
+      CollisionSpritesTilemap_188: -451089997
+      CollisionSpritesTilemap_189: 118738547
+      CollisionSpritesTilemap_19: 641470731
+      CollisionSpritesTilemap_190: -1795853505
+      CollisionSpritesTilemap_191: -1711900475
+      CollisionSpritesTilemap_192: -1694650376
+      CollisionSpritesTilemap_193: -109615654
+      CollisionSpritesTilemap_194: 186402022
+      CollisionSpritesTilemap_195: 292998256
+      CollisionSpritesTilemap_196: 1659713052
+      CollisionSpritesTilemap_197: -120970094
+      CollisionSpritesTilemap_198: -562769732
+      CollisionSpritesTilemap_199: -1050258610
+      CollisionSpritesTilemap_2: -1462105124
+      CollisionSpritesTilemap_20: 1209021417
+      CollisionSpritesTilemap_200: 919061952
+      CollisionSpritesTilemap_201: -769310863
+      CollisionSpritesTilemap_202: 1651903971
+      CollisionSpritesTilemap_203: 1467834824
+      CollisionSpritesTilemap_204: -479733359
+      CollisionSpritesTilemap_205: 381803087
+      CollisionSpritesTilemap_206: 371540999
+      CollisionSpritesTilemap_207: -884161213
+      CollisionSpritesTilemap_208: -1799839765
+      CollisionSpritesTilemap_209: 2126716272
+      CollisionSpritesTilemap_21: 1046958696
+      CollisionSpritesTilemap_210: 516382118
+      CollisionSpritesTilemap_211: -1380434438
+      CollisionSpritesTilemap_212: 1393274211
+      CollisionSpritesTilemap_213: -1640377031
+      CollisionSpritesTilemap_214: 2009514445
+      CollisionSpritesTilemap_215: -3944550
+      CollisionSpritesTilemap_216: 1592443017
+      CollisionSpritesTilemap_217: 228818778
+      CollisionSpritesTilemap_218: -1911912024
+      CollisionSpritesTilemap_219: 881447033
+      CollisionSpritesTilemap_22: -1674031308
+      CollisionSpritesTilemap_220: 1397407637
+      CollisionSpritesTilemap_221: -482455796
+      CollisionSpritesTilemap_222: -555065702
+      CollisionSpritesTilemap_223: -203495895
+      CollisionSpritesTilemap_224: -959242566
+      CollisionSpritesTilemap_225: 770304228
+      CollisionSpritesTilemap_226: -841191183
+      CollisionSpritesTilemap_227: -1488254901
+      CollisionSpritesTilemap_228: -811319647
+      CollisionSpritesTilemap_229: -830328940
+      CollisionSpritesTilemap_23: -769910335
+      CollisionSpritesTilemap_230: -1744259652
+      CollisionSpritesTilemap_24: 215669142
+      CollisionSpritesTilemap_25: 1370315774
+      CollisionSpritesTilemap_26: -1915325244
+      CollisionSpritesTilemap_27: 1347934237
+      CollisionSpritesTilemap_28: -777523806
+      CollisionSpritesTilemap_29: -549910631
+      CollisionSpritesTilemap_3: -115800521
+      CollisionSpritesTilemap_30: 2042394438
+      CollisionSpritesTilemap_31: -2082391600
+      CollisionSpritesTilemap_32: 652672006
+      CollisionSpritesTilemap_33: -1678695307
+      CollisionSpritesTilemap_34: 1142406465
+      CollisionSpritesTilemap_35: 1606944847
+      CollisionSpritesTilemap_36: -123183913
+      CollisionSpritesTilemap_37: 1594703866
+      CollisionSpritesTilemap_38: -600066778
+      CollisionSpritesTilemap_39: 1263941607
+      CollisionSpritesTilemap_4: 1280525787
+      CollisionSpritesTilemap_40: 1189795083
+      CollisionSpritesTilemap_41: 714669423
+      CollisionSpritesTilemap_42: 557534622
+      CollisionSpritesTilemap_43: -645685083
+      CollisionSpritesTilemap_44: -1463717838
+      CollisionSpritesTilemap_45: -1133240500
+      CollisionSpritesTilemap_46: 1181857518
+      CollisionSpritesTilemap_47: 1815896574
+      CollisionSpritesTilemap_48: -1797679095
+      CollisionSpritesTilemap_49: 2425893
+      CollisionSpritesTilemap_5: 1857729700
+      CollisionSpritesTilemap_50: -1779516812
+      CollisionSpritesTilemap_51: 1097297542
+      CollisionSpritesTilemap_52: -1626931669
+      CollisionSpritesTilemap_53: 1024722545
+      CollisionSpritesTilemap_54: -35001542
+      CollisionSpritesTilemap_55: 2119170528
+      CollisionSpritesTilemap_56: -886022489
+      CollisionSpritesTilemap_57: -175798747
+      CollisionSpritesTilemap_58: 909481048
+      CollisionSpritesTilemap_59: 2073123248
+      CollisionSpritesTilemap_6: 1468655480
+      CollisionSpritesTilemap_60: 1095996582
+      CollisionSpritesTilemap_61: -329615831
+      CollisionSpritesTilemap_62: -2040127437
+      CollisionSpritesTilemap_63: -586490448
+      CollisionSpritesTilemap_64: -1025307769
+      CollisionSpritesTilemap_65: -446471040
+      CollisionSpritesTilemap_66: 531915569
+      CollisionSpritesTilemap_67: 44477382
+      CollisionSpritesTilemap_68: 1999731413
+      CollisionSpritesTilemap_69: -82354066
+      CollisionSpritesTilemap_7: 1113710223
+      CollisionSpritesTilemap_70: 1777494029
+      CollisionSpritesTilemap_71: 1286996341
+      CollisionSpritesTilemap_72: -1261395729
+      CollisionSpritesTilemap_73: -1256398972
+      CollisionSpritesTilemap_74: 649053444
+      CollisionSpritesTilemap_75: -1247970884
+      CollisionSpritesTilemap_76: -1660328239
+      CollisionSpritesTilemap_77: 816169044
+      CollisionSpritesTilemap_78: -763472416
+      CollisionSpritesTilemap_79: -217896887
+      CollisionSpritesTilemap_8: -100084048
+      CollisionSpritesTilemap_80: 449698451
+      CollisionSpritesTilemap_81: 780833297
+      CollisionSpritesTilemap_82: 1917271791
+      CollisionSpritesTilemap_83: 1398070860
+      CollisionSpritesTilemap_84: 1755859192
+      CollisionSpritesTilemap_85: 1802694391
+      CollisionSpritesTilemap_86: 1951898524
+      CollisionSpritesTilemap_87: -29174147
+      CollisionSpritesTilemap_88: 1069565018
+      CollisionSpritesTilemap_89: -965088000
+      CollisionSpritesTilemap_9: 589418469
+      CollisionSpritesTilemap_90: -1765858971
+      CollisionSpritesTilemap_91: 552359525
+      CollisionSpritesTilemap_92: -1824289759
+      CollisionSpritesTilemap_93: -924348460
+      CollisionSpritesTilemap_94: 1878858090
+      CollisionSpritesTilemap_95: 498198746
+      CollisionSpritesTilemap_96: -1228197273
+      CollisionSpritesTilemap_97: -397174022
+      CollisionSpritesTilemap_98: -988025908
+      CollisionSpritesTilemap_99: 2093906924
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
