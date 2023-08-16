@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 
 public class GameManager : MonoBehaviour
@@ -29,6 +28,7 @@ public class GameManager : MonoBehaviour
     private LevelManager levelManager;
     private AudioManager audioManager;
     private PlayerManager playerManager;
+    private SceneChanger sceneChanger;
 
     [SerializeField] private Canvas fadeCanvasPrefab;
     private FadeInOutScript fadeInOut;
@@ -43,20 +43,21 @@ public class GameManager : MonoBehaviour
         audioManager = AudioManager.GetInstance();
         playerManager = PlayerManager.GetInstance();
 
+        sceneChanger = GetComponent<SceneChanger>();
+
         fadeInOut = Instantiate(fadeCanvasPrefab, transform).GetComponent<FadeInOutScript>();
         
-        StartLevel(0);
     }
 
     public void ChangeScene()
     {
-        SceneManager.LoadScene(sceneToLoad);
+        sceneChanger.ChangeScene(sceneToLoad);
     }
-    
-    public void StartLevel(int levelToPlay)
+
+    public void StartLevel()
     {
         fadeInOut.FadeIn();
-        levelManager.SetupLevel(levelToPlay);
+        levelManager.SetupLevel(currentLevel);
     }
 
     public void FinishedLevel()

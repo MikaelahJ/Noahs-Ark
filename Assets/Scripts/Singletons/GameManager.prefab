@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3947896020421274309}
   - component: {fileID: 6437702048894549094}
+  - component: {fileID: 4277472424883543369}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -46,3 +47,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeCanvasPrefab: {fileID: 6522497043466985361, guid: 0768ed7cedc74fa4fa35e216da43d32b, type: 3}
   sceneToLoad: 
+--- !u!114 &4277472424883543369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448731120866247415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711217fb0685879488e22a02bc02d7f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
