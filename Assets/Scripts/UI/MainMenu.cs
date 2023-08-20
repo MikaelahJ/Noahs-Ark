@@ -15,6 +15,7 @@ public class MainMenu : MonoBehaviour
     {
 
     }
+
     public void OnNewGame()
     {
         gameManager.ChangeScene("Level0");
