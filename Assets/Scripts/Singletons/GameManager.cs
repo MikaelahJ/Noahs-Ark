@@ -35,8 +35,6 @@ public class GameManager : MonoBehaviour
 
     private int currentLevel = 0;
 
-    public string sceneToLoad;
-
     private void Start()
     {
         levelManager = LevelManager.GetInstance();
@@ -46,12 +44,12 @@ public class GameManager : MonoBehaviour
         sceneChanger = GetComponent<SceneChanger>();
 
         fadeInOut = Instantiate(fadeCanvasPrefab, transform).GetComponent<FadeInOutScript>();
-        
+        fadeInOut.FadeIn();
     }
 
-    public void ChangeScene()
+    public void ChangeScene(string scene)
     {
-        sceneChanger.ChangeScene(sceneToLoad);
+        sceneChanger.ChangeScene(scene);
     }
 
     public void StartLevel()
@@ -67,8 +65,4 @@ public class GameManager : MonoBehaviour
         currentLevel++;
 
     }
-
-
-
-
 }

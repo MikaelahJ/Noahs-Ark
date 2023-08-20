@@ -4,7 +4,19 @@ using UnityEngine;
 
 public class TODOlist : MonoBehaviour
 {
-   /* GameManager
+    /* Menu stuff     
+    * 
+    * Get player stuff to see if continue is disabled or not
+    * use that to start the correct level on continue
+    * start level 1 on new game
+    * settings where you can change music, sfx, fullscreen, 
+    * fun animated credits menu
+    * 
+    * 
+    * 
+    * 
+ 
+    * GameManager
     * 
     * if the level is done set PlayerManager.canMove = false and animal.canmove = false
     * play some sort of cinematic

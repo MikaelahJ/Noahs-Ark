@@ -12,7 +12,7 @@ public class SpawnObjectInArea : MonoBehaviour
     private GameObject spawnAreaObject;
     private List<Vector2> spawnedPositions = new List<Vector2>();
 
-    private void Start()
+    public void GetSpawnBoundry()
     {
         spawnAreaObject = GameObject.Find("SpawnBoundry");
 

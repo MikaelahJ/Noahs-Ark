@@ -17,15 +17,11 @@ public class SceneChanger : MonoBehaviour
 
     public void ChangeScene(string sceneToLoad)
     {
-
         SceneManager.LoadScene(sceneToLoad);
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == gameManager.sceneToLoad)
-        {
-            gameManager.StartLevel();
-        }
+        gameManager.StartLevel();
     }
 }

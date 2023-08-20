@@ -22,7 +22,6 @@ public class FadeInOutScript : MonoBehaviour
     public void FadeInFinished()
     {
         image.enabled = false;
-
     }
 
     public void FadeOut()
@@ -33,7 +32,7 @@ public class FadeInOutScript : MonoBehaviour
     
     public void FadeOutFinished()
     {
-        GameManager.instance.ChangeScene();
+       // GameManager.instance.ChangeScene();
     }
 
 }
