@@ -8,15 +8,16 @@ using UnityEngine.UI;
 public class SettingsScript : MonoBehaviour
 {
     [SerializeField] private List<Image> volumeMainImages = new List<Image>();
-
     [SerializeField] private List<Sprite> volumeSprites = new List<Sprite>();
-
     //VolumeIndex[0] is master 1 is music 2 is SFX
     private int[] volumeIndex = new int[3] { 3, 3, 3 };
 
+    [SerializeField] private Toggle fullscreenToggle;
+
     private void Start()
     {
-        //UpdateScreenMode();
+        Screen.fullScreenMode = FullScreenMode.ExclusiveFullScreen;
+        UpdateScreenMode();
     }
 
     public void AddVolume(int whichToChange)
@@ -63,20 +64,27 @@ public class SettingsScript : MonoBehaviour
 
     public void ToggleScreenMode()
     {
-        switch (Screen.fullScreenMode)
-        {
-            case FullScreenMode.ExclusiveFullScreen:
-                Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
-                break;
+        bool isFullscreen = fullscreenToggle.isOn;
 
-            case FullScreenMode.FullScreenWindow:
-                Screen.fullScreenMode = FullScreenMode.Windowed;
-                break;
+        if (isFullscreen)
+            Screen.fullScreenMode = FullScreenMode.Windowed;
+        else
+            Screen.fullScreenMode = FullScreenMode.ExclusiveFullScreen;
 
-            case FullScreenMode.Windowed:
-                Screen.fullScreenMode = FullScreenMode.ExclusiveFullScreen;
-                break;
-        }
+        //switch (Screen.fullScreenMode)
+        //{
+        //    case FullScreenMode.ExclusiveFullScreen:
+        //        Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
+        //        break;
+
+        //    case FullScreenMode.FullScreenWindow:
+        //        Screen.fullScreenMode = FullScreenMode.Windowed;
+        //        break;
+
+        //    case FullScreenMode.Windowed:
+        //        Screen.fullScreenMode = FullScreenMode.ExclusiveFullScreen;
+        //        break;
+        //}
         UpdateScreenMode();
     }
 
