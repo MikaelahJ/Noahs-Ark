@@ -43,6 +43,7 @@ public class LevelManager : MonoBehaviour
         spawnAnimal = GetComponent<SpawnObjectInArea>();
         LoadLevelData();
     }
+
     private void Update()
     {
         if (!GameManager.instance.inGame)
@@ -53,8 +54,8 @@ public class LevelManager : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Tab))
             animalCanvasGO.enabled = false;
-
     }
+
     public void LoadLevelData()
     {
         levelDataList.Clear();
@@ -79,6 +80,9 @@ public class LevelManager : MonoBehaviour
         animalCanvasGO = Instantiate(animalCanvasPrefab);
         animalCanvasScript = animalCanvasGO.GetComponent<AnimalCanvasUI>();
         animalCanvasGO.enabled = false;
+
+        if(spawnAnimal == null)
+            spawnAnimal = GetComponent<SpawnObjectInArea>();
 
         spawnAnimal.GetSpawnBoundry();
 

@@ -59,8 +59,9 @@ public class GameManager : MonoBehaviour
     public void StartLevel()
     {
         fadeInOut.FadeIn();
-        levelManager.SetupLevel(currentLevel);
         inGame = true;
+        levelManager.SetupLevel(currentLevel);
+
     }
 
     public void FinishedLevel()
