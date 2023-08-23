@@ -35,6 +35,8 @@ public class GameManager : MonoBehaviour
 
     private int currentLevel = 0;
 
+    public bool inGame;
+
     private void Start()
     {
         levelManager = LevelManager.GetInstance();
@@ -45,6 +47,8 @@ public class GameManager : MonoBehaviour
 
         fadeInOut = Instantiate(fadeCanvasPrefab, transform).GetComponent<FadeInOutScript>();
         fadeInOut.FadeIn();
+
+        StartLevel(); //REMOVE
     }
 
     public void ChangeScene(string scene)
@@ -56,6 +60,7 @@ public class GameManager : MonoBehaviour
     {
         fadeInOut.FadeIn();
         levelManager.SetupLevel(currentLevel);
+        inGame = true;
     }
 
     public void FinishedLevel()

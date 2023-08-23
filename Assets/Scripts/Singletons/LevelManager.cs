@@ -26,7 +26,8 @@ public class LevelManager : MonoBehaviour
     #endregion
 
     [SerializeField] private Canvas animalCanvasPrefab;
-    public AnimalCanvasUI animalCanvasUI;
+    public AnimalCanvasUI animalCanvasScript;
+    public Canvas animalCanvasGO;
 
     private string levelDataPath = "Assets/ScriptableObjects/Levels";
     public List<LevelConfig> levelDataList = new List<LevelConfig>();
@@ -42,7 +43,18 @@ public class LevelManager : MonoBehaviour
         spawnAnimal = GetComponent<SpawnObjectInArea>();
         LoadLevelData();
     }
+    private void Update()
+    {
+        if (!GameManager.instance.inGame)
+            return;
 
+        if (Input.GetKeyDown(KeyCode.Tab))
+            animalCanvasGO.enabled = true;
+
+        if (Input.GetKeyUp(KeyCode.Tab))
+            animalCanvasGO.enabled = false;
+
+    }
     public void LoadLevelData()
     {
         levelDataList.Clear();
@@ -64,8 +76,9 @@ public class LevelManager : MonoBehaviour
 
     public void SetupLevel(int levelIndex)
     {
-        var canvas = Instantiate(animalCanvasPrefab);
-        animalCanvasUI = canvas.GetComponent<AnimalCanvasUI>();
+        animalCanvasGO = Instantiate(animalCanvasPrefab);
+        animalCanvasScript = animalCanvasGO.GetComponent<AnimalCanvasUI>();
+        animalCanvasGO.enabled = false;
 
         spawnAnimal.GetSpawnBoundry();
 
@@ -93,7 +106,7 @@ public class LevelManager : MonoBehaviour
                 GameObject animal = allAnimalTypes.Find(obj => obj.name == field.Name);
 
                 //add animal to animalCounter UI
-                animalCanvasUI.AddToBoard(animal);
+                animalCanvasScript.AddToBoard(animal);
 
                 for (int i = 0; i < 2; i++)//spawn 2 of each animal
                 {

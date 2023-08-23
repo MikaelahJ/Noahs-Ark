@@ -49,11 +49,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7787ebcdab3cc4a83c8c1ef1750126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animalData: {fileID: 0}
   canMove: 0
   isMoving: 0
   throwDistance: 10
   throwDrag: 3
+  moveRadius: 0
   moveSpeed: 3
+  minWaitTime: 0
+  maxWaitTime: 0
 --- !u!114 &5537916416420196245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,7 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 714c80b0edf591444a398c735a0ead97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 3
+  animalData: {fileID: 0}
 --- !u!212 &8383964034779059920
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -105,9 +109,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1183978633
+  m_SortingLayer: -3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1112284860, guid: 867a3d52bf6507c498fd2c5b3758bb97, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

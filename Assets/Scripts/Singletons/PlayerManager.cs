@@ -18,7 +18,7 @@ public class PlayerManager : MonoBehaviour
         instance = this;
         DontDestroyOnLoad(this.gameObject);
     }
-    
+
     public static PlayerManager GetInstance() { return instance; }
 
     #endregion
@@ -28,5 +28,4 @@ public class PlayerManager : MonoBehaviour
     public bool isHolding;
     public bool isMoving;
     public bool canMove;
-
 }

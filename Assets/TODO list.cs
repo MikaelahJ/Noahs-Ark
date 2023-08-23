@@ -8,8 +8,8 @@ public class TODOlist : MonoBehaviour
     * 
     * Get player stuff to see if continue is disabled or not
     * use that to start the correct level on continue
-    * start level 1 on new game
-    * settings where you can change music, sfx, fullscreen, 
+    * start level 1 on new game                          - DONE
+    * settings where you can change music, sfx, fullscreen, - DONE
     * fun animated credits menu
     * 
     * 
@@ -31,7 +31,7 @@ public class TODOlist : MonoBehaviour
 
     * Player
     * 
-    * arms up (holding) sprites
+    * arms up (holding) sprites - DONE
     * maybe a whole different character
     * 
 
@@ -64,7 +64,7 @@ public class TODOlist : MonoBehaviour
 
     * BUGS
     * 
-    * can throw through walls
+    * can throw through walls - FIXED
     * Sometimes animals start to move when holding, they stop when player is moving though
     * Pickup text not always working
     * 

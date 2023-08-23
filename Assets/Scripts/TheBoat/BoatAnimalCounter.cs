@@ -18,7 +18,7 @@ public class BoatAnimalCounter : MonoBehaviour
     {
         gameManager = GameManager.GetInstance();
         playerManager = PlayerManager.GetInstance();
-        animalBoard = LevelManager.instance.animalCanvasUI;
+        animalBoard = LevelManager.instance.animalCanvasScript;
     }
 
     public void addAnimalsToAnimalBools(List<string> animals)
