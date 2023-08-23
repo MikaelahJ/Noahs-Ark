@@ -7,7 +7,8 @@ using UnityEngine;
 public class AnimalData : ScriptableObject
 {
     public Sprite animalSprite;
-    public RuntimeAnimatorController animController;
+    //public RuntimeAnimatorController animController;
+    public AnimationClip idleAnimClip;
 
     public string animalType;
 

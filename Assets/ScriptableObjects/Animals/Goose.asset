@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: -752098864, guid: ca1d8235837133548a785b76caae549b, type: 3}
   animController: {fileID: 9100000, guid: 8d37c8f05302c27449aaeccbe5aa1ef5, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: 21605e530609f7945b0076bb52d8c9dd, type: 2}
   animalType: Goose
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 3
+  moveRadius: 5
   moveSpeed: 3
+  minWaitTime: 1
+  maxWaitTime: 5

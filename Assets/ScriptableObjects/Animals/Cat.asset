@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: 520254321, guid: 2f7bd6ba07724f64eabf534b5c032076, type: 3}
   animController: {fileID: 9100000, guid: 9dc841abb8451084c9620d0ea1c3bbd0, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: b4b7616d08cb4b7408fd1b3d7fe39cd3, type: 2}
   animalType: Cat
   rotationSpeed: 4
   throwDistance: 15
   throwDrag: 2
+  moveRadius: 5
   moveSpeed: 5
+  minWaitTime: 1
+  maxWaitTime: 5

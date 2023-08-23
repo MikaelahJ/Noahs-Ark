@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: -2007440259, guid: 0d7fc498ac4ae2442839f4f7de3d15fa, type: 3}
   animController: {fileID: 9100000, guid: b1c231b4f3c80374286d4644c4b89813, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: cc735421a7b7d554d852dbe0f3feecd5, type: 2}
   animalType: Frog
   rotationSpeed: 3
   throwDistance: 15
   throwDrag: 3
+  moveRadius: 5
   moveSpeed: 3
+  minWaitTime: 1
+  maxWaitTime: 5

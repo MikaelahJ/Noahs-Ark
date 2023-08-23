@@ -83,6 +83,7 @@ public class PickUp : MonoBehaviour
 
         closestPickup.layer = LayerMask.NameToLayer("IsHeld");
         closestPickup.GetComponent<AnimalMovement>().StopMoving();
+        closestPickup.GetComponent<AnimalAnimation>().IsHeldWiggle(true);
         closestPickup.transform.SetParent(holdingPos);
         closestPickup.transform.position = holdingPos.position;
         closestPickup.GetComponent<Rigidbody2D>().isKinematic = true;

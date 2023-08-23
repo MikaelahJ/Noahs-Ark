@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: -569916567, guid: fb366142355566f4fbe3956030f68da4, type: 3}
   animController: {fileID: 9100000, guid: 44eb0cc76edd6534b9ef27a8ab843f0f, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: 84d209865e2c05d478b8985db7900455, type: 2}
   animalType: Fox
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 3
+  moveRadius: 5
   moveSpeed: 5
+  minWaitTime: 1
+  maxWaitTime: 5

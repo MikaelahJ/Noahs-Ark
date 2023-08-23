@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: 1112284860, guid: 867a3d52bf6507c498fd2c5b3758bb97, type: 3}
   animController: {fileID: 9100000, guid: 83cbe2d5667bca94f99fa486fd2c8ebd, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: 09dc6821644f9c2418bbdc365f707157, type: 2}
   animalType: Chicken
   rotationSpeed: 3
   throwDistance: 15
   throwDrag: 3
+  moveRadius: 5
   moveSpeed: 3
+  minWaitTime: 1
+  maxWaitTime: 5

@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: -885228582, guid: e80f062889f9d3c4a941073922996002, type: 3}
   animController: {fileID: 9100000, guid: aff815ab279d07a45bbfb42faf2e55e8, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: ae7e691048d45ac458438bf40d103fc0, type: 2}
   animalType: Turtle
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 3
+  moveRadius: 5
   moveSpeed: 3
+  minWaitTime: 1
+  maxWaitTime: 5

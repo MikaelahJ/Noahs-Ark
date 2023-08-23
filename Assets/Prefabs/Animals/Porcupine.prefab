@@ -12,10 +12,6 @@ PrefabInstance:
       propertyPath: animalData
       value: 
       objectReference: {fileID: 11400000, guid: 599aeed5c2096594aba91ff6061c3a55, type: 2}
-    - target: {fileID: 3259714587774766093, guid: 6113f57640c7eec48b5b53a7315ae7f2, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: ed5d13ef828e7084d8d2625a8e7ac3d5, type: 2}
     - target: {fileID: 5433653975334401120, guid: 6113f57640c7eec48b5b53a7315ae7f2, type: 3}
       propertyPath: m_RootOrder
       value: 0

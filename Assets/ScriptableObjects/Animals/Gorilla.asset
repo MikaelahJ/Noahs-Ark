@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: 307776835, guid: 18c37973fa106c14585289a8026abdae, type: 3}
   animController: {fileID: 9100000, guid: 53cdaf7d4502c2e4c91aed87363fa067, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: 626d960bc378ef946b8738419f298693, type: 2}
   animalType: Gorilla
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 3
+  moveRadius: 5
   moveSpeed: 3
+  minWaitTime: 1
+  maxWaitTime: 5

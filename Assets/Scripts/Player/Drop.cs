@@ -50,7 +50,9 @@ public class Drop : MonoBehaviour
     private void RestoreValues(GameObject animal)
     {
         GetComponent<PickUp>().closestPickup = null;
-        
+
+        animal.GetComponent<AnimalAnimation>().IsHeldWiggle(false);
+
         Rigidbody2D rb = animal.GetComponent<Rigidbody2D>();
         rb.transform.SetParent(null);
         rb.isKinematic = false;

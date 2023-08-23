@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: 1912821220, guid: 5821ee904cc1bec4495f6aa3df9c0a42, type: 3}
   animController: {fileID: 9100000, guid: 3f019fc546a68574abe006d72f0aab91, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: 92f2e6969c06c064ba6fa14d63072a70, type: 2}
   animalType: Cow
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 4
+  moveRadius: 5
   moveSpeed: 2
+  minWaitTime: 1
+  maxWaitTime: 5

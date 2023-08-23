@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: 108545337, guid: dff719e3aca496f48a5ab9174b1753b7, type: 3}
   animController: {fileID: 9100000, guid: a2a172c556a36b34fb6a539099176342, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: 259f854339f2f41498ac452932bafe10, type: 2}
   animalType: Dog
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 2
+  moveRadius: 5
   moveSpeed: 4
+  minWaitTime: 1
+  maxWaitTime: 5

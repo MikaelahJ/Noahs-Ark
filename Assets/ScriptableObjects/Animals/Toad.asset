@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: 1235109349, guid: d6644246baacfe0478864e2e4b99f71e, type: 3}
   animController: {fileID: 9100000, guid: 2228daa37591bf84aa1f27073d2337cd, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: cc7b776baaf6c594797794c1f7508b23, type: 2}
   animalType: Toad
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 3
+  moveRadius: 5
   moveSpeed: 3
+  minWaitTime: 1
+  maxWaitTime: 5

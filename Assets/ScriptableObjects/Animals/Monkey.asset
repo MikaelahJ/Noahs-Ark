@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: 2128015084, guid: 68078f2326a50364188caab30aebee84, type: 3}
   animController: {fileID: 9100000, guid: dd8b4f993dcbef84aab7c9bf16de0799, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: 530405a6b9a6be249b7476493adcb7a4, type: 2}
   animalType: Monkey
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 3
+  moveRadius: 5
   moveSpeed: 3
+  minWaitTime: 1
+  maxWaitTime: 5

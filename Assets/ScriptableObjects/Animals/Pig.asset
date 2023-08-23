@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: 746408216, guid: 42aeaec6e81ee604795761faffdfd61b, type: 3}
   animController: {fileID: 9100000, guid: 327998bdd66f4514ca9260c443e77924, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: beda8abf165c78e4eaaf43cd535a2d7d, type: 2}
   animalType: Pig
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 3
+  moveRadius: 5
   moveSpeed: 3
+  minWaitTime: 1
+  maxWaitTime: 5

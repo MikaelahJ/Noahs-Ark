@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalSprite: {fileID: 524605126, guid: 063b51a740982c74991d57b779577a64, type: 3}
   animController: {fileID: 9100000, guid: 36a2b1ed6d014bf4f9c97bdb6c95669d, type: 2}
+  idleAnimClip: {fileID: 7400000, guid: 6e169a864a2161a4ba8644ba5aeb1dc1, type: 2}
   animalType: Skunk
   rotationSpeed: 3
   throwDistance: 10
   throwDrag: 3
+  moveRadius: 5
   moveSpeed: 3
+  minWaitTime: 1
+  maxWaitTime: 5
