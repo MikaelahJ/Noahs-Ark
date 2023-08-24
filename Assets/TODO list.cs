@@ -56,7 +56,7 @@ public class TODOlist : MonoBehaviour
 
     * Tilemap
     * 
-    * set colliders on wall type tiles
+    * set colliders on wall type tiles - DONE
     * set out decorative tiles
     * make the map more interesting
     * 

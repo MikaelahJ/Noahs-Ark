@@ -733,33 +733,47 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 0
     m_Data:
       e00: 0
       e01: 0
-      e02: -1.6106144e+10
-      e03: -1.6106144e+10
+      e02: 3.7500038
+      e03: 3.7500038
       e10: 0
       e11: 0
-      e12: 9.33e-43
-      e13: 9.33e-43
-      e20: -2.025417e+26
-      e21: -1.0159858e+25
-      e22: 9.857357e-29
-      e23: 2.0349045
+      e12: 7.85e-43
+      e13: 7.85e-43
+      e20: 1.5806726e+10
+      e21: 4.0833838e+34
+      e22: -5.293464e-19
+      e23: -8.795537e+9
       e30: 4.5905e-41
-      e31: 9.36e-43
-      e32: 9.35e-43
-      e33: 9.37e-43
+      e31: 7.88e-43
+      e32: 7.85e-43
+      e33: 7.88e-43
   m_TileColorArray:
   - m_RefCount: 0
     m_Data: {r: NaN, g: NaN, b: NaN, a: NaN}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: -19, z: 0}
-  m_Size: {x: 57, y: 19, z: 1}
+  m_Origin: {x: 0, y: -36, z: 0}
+  m_Size: {x: 57, y: 36, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -6381,7 +6395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1213087198
 Transform:
   m_ObjectHideFlags: 0
