@@ -1580,48 +1580,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: B-C-D-E_Serene_Village_01_padded_98
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 275
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59000e1671352644986f52bca0fa1228
-      internalID: 226065553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B-C-D-E_Serene_Village_01_padded_99
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 275
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d970ab1f4d8e7b499c95cdbcd9aa713
-      internalID: -589901322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: B-C-D-E_Serene_Village_01_padded_100
       rect:
         serializedVersion: 2
@@ -1853,48 +1811,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: B-C-D-E_Serene_Village_01_padded_113
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 241
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bca09b16a5d378f43bfb14bc6d6043d6
-      internalID: -1332196116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B-C-D-E_Serene_Village_01_padded_114
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 241
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f85fd49a7252e28429a1202f7ed1d625
-      internalID: -1238214999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: B-C-D-E_Serene_Village_01_padded_115
       rect:
         serializedVersion: 2
@@ -2079,48 +1995,6 @@ TextureImporter:
       bones: []
       spriteID: 867e9762c2431b44686e0b777ea4a067
       internalID: 1245407629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B-C-D-E_Serene_Village_01_padded_129
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 207
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce283e9cd8a713743a1755df19f3ba74
-      internalID: 969155991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B-C-D-E_Serene_Village_01_padded_130
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 207
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19f1ae9e6a43d4345b70df2a93fd902f
-      internalID: -1995765061
       vertices: []
       indices: 
       edges: []
@@ -2352,48 +2226,6 @@ TextureImporter:
       bones: []
       spriteID: 54e0dc4d27718e74b93893fb19a66e24
       internalID: -1469154867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B-C-D-E_Serene_Village_01_padded_145
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 173
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 189c6aee61a86ff498a75f81d0da08c8
-      internalID: -517220781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B-C-D-E_Serene_Village_01_padded_146
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 173
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ba778d1e3d12d741a5fb96cd45ec95d
-      internalID: -547662653
       vertices: []
       indices: 
       edges: []
@@ -2743,7 +2575,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
