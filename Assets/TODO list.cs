@@ -4,7 +4,21 @@ using UnityEngine;
 
 public class TODOlist : MonoBehaviour
 {
-    /* Menu stuff     
+   /* LAYERS
+    * 
+    * Boat = -10
+    * Normal decor stuff = 1
+    * 
+    * Player = 10
+    * Animals = 12
+    * Player walks behind decor = 15
+    * 
+    * 
+    * 
+     
+      TODO
+    *
+    *Menu stuff     
     * 
     * Get player stuff to see if continue is disabled or not
     * use that to start the correct level on continue
