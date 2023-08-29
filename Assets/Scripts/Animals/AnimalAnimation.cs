@@ -11,7 +11,6 @@ public class AnimalAnimation : MonoBehaviour
     private Animator animator;
     private AnimatorOverrideController animatorOverride;
 
-    bool isheld;
     void Start()
     {
         movementScript = GetComponent<AnimalMovement>();
@@ -31,11 +30,15 @@ public class AnimalAnimation : MonoBehaviour
 
     void Update()
     {
-        if (movementScript.isMoving)
+        if (movementScript.currentState == AnimalState.Moving)
             BouncyWalk();
-        else if (isheld)
+        else if (movementScript.currentState == AnimalState.Held)
         {
-            IsHeldWiggle(true);
+            IsHeldWiggle();
+        }
+        else if (movementScript.currentState == AnimalState.Panic)
+        {
+
         }
         else
             transform.rotation = Quaternion.identity;
@@ -50,9 +53,8 @@ public class AnimalAnimation : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, targetRotation);
     }
 
-    public void IsHeldWiggle(bool isHeld)
+    private void IsHeldWiggle()
     {
-        isheld = true;
         float t = Mathf.PingPong(Time.time * animalData.rotationSpeed * 3, 1f);
 
         float targetRotation = Mathf.Lerp(10, -10, t);

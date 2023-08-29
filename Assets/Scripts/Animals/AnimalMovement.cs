@@ -2,14 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum AnimalState
+{
+    Idle,
+    Moving,
+    Held,
+    Panic
+}
+
 public class AnimalMovement : MonoBehaviour
 {
-    public AnimalData animalData;
+    [SerializeField] AnimalData animalData;
+    public AnimalState currentState;
 
     private Rigidbody2D rb;
 
     public bool canMove;
-    public bool isMoving;
 
     public float throwDistance;
     public float throwDrag;
@@ -24,6 +32,8 @@ public class AnimalMovement : MonoBehaviour
 
     void Start()
     {
+        currentState = AnimalState.Idle;
+
         rb = GetComponent<Rigidbody2D>();
 
         throwDistance = animalData.throwDistance;
@@ -43,13 +53,14 @@ public class AnimalMovement : MonoBehaviour
 
     public void StartMoving()
     {
-        rb.drag = 10f;
+        rb.drag = throwDrag;
         if (gameObject.layer != LayerMask.NameToLayer("Animal"))
             gameObject.layer = LayerMask.NameToLayer("Animal");
 
         if (!canMove)
         {
             canMove = true;
+            currentState = AnimalState.Moving;
             movementCoroutine = StartCoroutine(MoveToPos());
         }
     }
@@ -64,7 +75,7 @@ public class AnimalMovement : MonoBehaviour
             if (movementCoroutine != null)
             {
                 StopCoroutine(movementCoroutine);
-                isMoving = false;
+                currentState = AnimalState.Held;
                 rb.velocity = Vector3.zero;
             }
         }
@@ -74,7 +85,7 @@ public class AnimalMovement : MonoBehaviour
     {
         while (true)
         {
-            if (canMove)
+            if (currentState == AnimalState.Moving)
             {
                 Vector2 randomOffset = Random.insideUnitCircle * moveRadius;
                 Vector2 randomPoint = (Vector2)transform.position + randomOffset;
@@ -89,12 +100,12 @@ public class AnimalMovement : MonoBehaviour
 
                 while (distance > 0.1f)
                 {
-                    isMoving = true;
+                    currentState = AnimalState.Moving;
 
                     Vector3 direction = (targetPos - transform.position).normalized;
                     rb.velocity = direction * moveSpeed;
 
-                    if(Vector3.Distance(transform.position, prevPos) < 0.3f)
+                    if (Vector3.Distance(transform.position, prevPos) < 0.3f)
                     {
                         stuckTime += Time.deltaTime;
 
@@ -113,11 +124,12 @@ public class AnimalMovement : MonoBehaviour
                     distance = Vector3.Distance(transform.position, targetPos);
                 }
 
-                isMoving = false;
+                currentState = AnimalState.Idle;
                 rb.velocity = Vector3.zero;
 
                 float idleTime = Random.Range(minWaitTime, maxWaitTime);
                 yield return new WaitForSeconds(idleTime);
+                currentState = AnimalState.Moving;
             }
             else
             {

@@ -51,7 +51,7 @@ public class Drop : MonoBehaviour
     {
         GetComponent<PickUp>().closestPickup = null;
 
-        animal.GetComponent<AnimalAnimation>().IsHeldWiggle(false);
+        animal.GetComponent<AnimalMovement>().currentState = AnimalState.Idle;
 
         Rigidbody2D rb = animal.GetComponent<Rigidbody2D>();
         rb.transform.SetParent(null);
