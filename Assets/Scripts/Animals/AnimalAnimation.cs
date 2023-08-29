@@ -11,17 +11,13 @@ public class AnimalAnimation : MonoBehaviour
     private Animator animator;
     private AnimatorOverrideController animatorOverride;
 
-
-    private float rotationSpeed;
-
+    bool isheld;
     void Start()
     {
         movementScript = GetComponent<AnimalMovement>();
         animator = GetComponent<Animator>();
 
-        rotationSpeed = animalData.rotationSpeed;
         GetComponent<SpriteRenderer>().sprite = animalData.animalSprite;
-
 
         SetIdleAnimClip();
     }
@@ -37,13 +33,17 @@ public class AnimalAnimation : MonoBehaviour
     {
         if (movementScript.isMoving)
             BouncyWalk();
+        else if (isheld)
+        {
+            IsHeldWiggle(true);
+        }
         else
             transform.rotation = Quaternion.identity;
     }
 
     private void BouncyWalk()//Lerp rotation back and forth
     {
-        float t = Mathf.PingPong(Time.time * rotationSpeed, 1f);
+        float t = Mathf.PingPong(Time.time * animalData.rotationSpeed, 1f);
 
         float targetRotation = Mathf.Lerp(10, -10, t);
 
@@ -52,6 +52,11 @@ public class AnimalAnimation : MonoBehaviour
 
     public void IsHeldWiggle(bool isHeld)
     {
-        animator.SetBool("IsHeld", isHeld);
+        isheld = true;
+        float t = Mathf.PingPong(Time.time * animalData.rotationSpeed * 3, 1f);
+
+        float targetRotation = Mathf.Lerp(10, -10, t);
+
+        transform.rotation = Quaternion.Euler(0, 0, targetRotation);
     }
 }
