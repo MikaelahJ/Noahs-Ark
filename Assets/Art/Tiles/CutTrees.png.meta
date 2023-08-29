@@ -113,10 +113,10 @@ TextureImporter:
       name: CutTrees_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 37
-        width: 48
-        height: 24
+        x: 14
+        y: 128
+        width: 66
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: CutTrees_1
       rect:
         serializedVersion: 2
-        x: 89
+        x: 22
         y: 37
-        width: 48
-        height: 24
+        width: 56
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: CutTrees_2
       rect:
         serializedVersion: 2
-        x: 157
+        x: 90
         y: 37
-        width: 48
-        height: 24
+        width: 56
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: CutTrees_3
       rect:
         serializedVersion: 2
-        x: 225
+        x: 158
         y: 37
-        width: 48
-        height: 24
+        width: 56
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,6 +189,90 @@ TextureImporter:
       bones: []
       spriteID: 3abda4c8ab69b104a939c77b33bfdee1
       internalID: -1033570348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutTrees_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 37
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae79f20bb83349443aba7286dc9b744a
+      internalID: -1677849549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutTrees_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 128
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38895d112dbfefa43943cade250d279c
+      internalID: -1739898200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutTrees_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 128
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b531a972150254aa97fe10bdbc0d4d
+      internalID: -1423065794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutTrees_7
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 128
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b28ed5e1840924469e69198c21f67b1
+      internalID: 765162692
       vertices: []
       indices: 
       edges: []
@@ -208,6 +292,10 @@ TextureImporter:
       CutTrees_1: 1514522290
       CutTrees_2: 466535112
       CutTrees_3: -1033570348
+      CutTrees_4: -1677849549
+      CutTrees_5: -1739898200
+      CutTrees_6: -1423065794
+      CutTrees_7: 765162692
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

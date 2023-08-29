@@ -54,3 +54,6 @@ TagManager:
   - name: UI
     uniqueID: 1168168143
     locked: 0
+  - name: DoubleLayerDecor
+    uniqueID: 754400521
+    locked: 0
