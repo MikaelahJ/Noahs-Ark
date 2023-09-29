@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -27,8 +28,10 @@ public class GameManager : MonoBehaviour
 
     private LevelManager levelManager;
     private AudioManager audioManager;
-    private PlayerManager playerManager;
+    private EntityManager playerManager;
     private SceneChanger sceneChanger;
+
+    public event Action FinishedLevelEvent;
 
     [SerializeField] private Canvas fadeCanvasPrefab;
     private FadeInOutScript fadeInOut;
@@ -36,12 +39,13 @@ public class GameManager : MonoBehaviour
     private int currentLevel = 0;
 
     public bool inGame;
+    public bool finishedLevel;
 
     private void Start()
     {
         levelManager = LevelManager.GetInstance();
         audioManager = AudioManager.GetInstance();
-        playerManager = PlayerManager.GetInstance();
+        playerManager = EntityManager.GetInstance();
 
         sceneChanger = GetComponent<SceneChanger>();
 
@@ -49,6 +53,8 @@ public class GameManager : MonoBehaviour
         fadeInOut.FadeIn();
 
         StartLevel(); //REMOVE
+
+
     }
 
     public void ChangeScene(string scene)
@@ -66,9 +72,8 @@ public class GameManager : MonoBehaviour
 
     public void FinishedLevel()
     {
-        Debug.Log("done");
+        FinishedLevelEvent?.Invoke();
 
         currentLevel++;
-
     }
 }

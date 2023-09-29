@@ -7,12 +7,12 @@ public class Drop : MonoBehaviour
 {
     [SerializeField] private ParticleSystem throwTrail;
 
-    private PlayerManager playerManager;
+    private EntityManager playerManager;
 
 
     private void Start()
     {
-        playerManager = PlayerManager.GetInstance();
+        playerManager = EntityManager.GetInstance();
     }
 
     public void DropOrThrow(GameObject animal)

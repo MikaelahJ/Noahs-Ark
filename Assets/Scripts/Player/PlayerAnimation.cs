@@ -5,14 +5,14 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    private PlayerManager playerManager;
+    private EntityManager entityManager;
 
     private Animator animator;
     private Rigidbody2D rb;
 
     void Start()
     {
-        playerManager = PlayerManager.GetInstance();
+        entityManager = EntityManager.GetInstance();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
@@ -24,7 +24,7 @@ public class PlayerAnimation : MonoBehaviour
         else
             animator.SetBool("IsMoving", false);
 
-        if (playerManager.isHolding)
+        if (entityManager.isHolding)
             animator.SetBool("IsHolding", true);
         else
             animator.SetBool("IsHolding", false);

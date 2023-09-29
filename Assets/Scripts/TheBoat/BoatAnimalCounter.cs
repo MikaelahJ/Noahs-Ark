@@ -6,10 +6,9 @@ using System.Linq;
 public class BoatAnimalCounter : MonoBehaviour
 {
     private GameManager gameManager;
-    private PlayerManager playerManager;
+    private EntityManager playerManager;
 
     private AnimalCanvasUI animalBoard;
-    
 
     public List<GameObject> animalsOnBoat = new List<GameObject>();
     public Dictionary<string, int> animalBools = new Dictionary<string, int>();
@@ -17,7 +16,7 @@ public class BoatAnimalCounter : MonoBehaviour
     void Start()
     {
         gameManager = GameManager.GetInstance();
-        playerManager = PlayerManager.GetInstance();
+        playerManager = EntityManager.GetInstance();
         animalBoard = LevelManager.instance.animalCanvasScript;
     }
 
@@ -41,7 +40,7 @@ public class BoatAnimalCounter : MonoBehaviour
                 {
                     animalBools[collision.gameObject.name] -= 1;
                     Debug.Log("removed" + animalBools[collision.gameObject.name]);
-                   animalBoard.UpdateBoard(collision.gameObject.name, animalBools[collision.gameObject.name]);
+                    animalBoard.UpdateBoard(collision.gameObject.name, animalBools[collision.gameObject.name]);
                 }
             }
             else if (!animalsOnBoat.Contains(collision.gameObject))
@@ -65,11 +64,15 @@ public class BoatAnimalCounter : MonoBehaviour
         bool allBoolsTrue = animalBools.Values.All(value => value == 2);
 
         if (allBoolsTrue)
+        {
             gameManager.FinishedLevel();
+
+            //Add the animals and player as children so they follow when the boat moves
+            FindObjectOfType<PlayerMovement>().transform.parent = this.transform.parent;
+            foreach (GameObject animal in animalsOnBoat)
+            {
+                animal.transform.parent = this.transform.parent;
+            }
+        }
     }
-
-
-
-
-
 }

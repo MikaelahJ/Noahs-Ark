@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private PlayerManager playerManager;
-    private Rigidbody2D rb; 
+    private EntityManager entityManager;
+    private Rigidbody2D rb;
 
     public Vector2 dir;
+    public Vector2 finishedBoatPos;
 
     private float moveSpeed = 5f;
 
@@ -15,23 +16,28 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        playerManager = PlayerManager.GetInstance();
-        playerManager.canMove = true;
+        entityManager = EntityManager.GetInstance();
+        entityManager.canMove = true;
+
+        finishedBoatPos = FindObjectOfType<BoatMovement>().transform.position;
     }
 
     void Update()
     {
-        if (!playerManager.canMove)
-            return;
+        if (!entityManager.canMove)
+            dir = Vector2.MoveTowards(transform.position, finishedBoatPos, moveSpeed);
 
-        dir.x = Input.GetAxisRaw("Horizontal");
-        dir.y = Input.GetAxisRaw("Vertical");
-        dir.Normalize();
+        else
+        {
+            dir.x = Input.GetAxisRaw("Horizontal");
+            dir.y = Input.GetAxisRaw("Vertical");
+            dir.Normalize();
+        }
 
         if (dir == Vector2.zero)
-            playerManager.isMoving = false;
+            entityManager.isMoving = false;
         else
-            playerManager.isMoving = true;
+            entityManager.isMoving = true;
     }
 
     private void FixedUpdate()

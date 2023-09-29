@@ -6,7 +6,7 @@ using TMPro;
 
 public class PickUp : MonoBehaviour
 {
-    private PlayerManager playerManager;
+    private EntityManager playerManager;
 
     [SerializeField] private TextMeshProUGUI pickupText;
     [SerializeField] private Transform holdingPos;
@@ -17,7 +17,7 @@ public class PickUp : MonoBehaviour
 
     private void Start()
     {
-        playerManager = PlayerManager.GetInstance();
+        playerManager = EntityManager.GetInstance();
     }
 
     private void Update()

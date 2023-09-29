@@ -16,10 +16,10 @@ TagManager:
   - Player
   - Animal
   - SpawnBoundry
-  - 
-  - 
-  - 
-  - 
+  - UnderDeck
+  - UnderDeckColliders
+  - Deck
+  - DeckColliders
   - 
   - 
   - 
@@ -45,15 +45,18 @@ TagManager:
   - name: Sea
     uniqueID: 3784142895
     locked: 0
+  - name: UnderDeck
+    uniqueID: 1183978633
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: UI
-    uniqueID: 1168168143
+  - name: TopDeck
+    uniqueID: 902220371
     locked: 0
   - name: DoubleLayerDecor
     uniqueID: 754400521
     locked: 0
-  - name: 
-    uniqueID: 1183978633
+  - name: UI
+    uniqueID: 1168168143
     locked: 0

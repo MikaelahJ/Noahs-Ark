@@ -14,7 +14,7 @@ public class DontSpawn : IWaveSpawner
     }
 }
 
-public static class WaveSpawner 
+public static class WaveSpawner
 {
     private static IWaveSpawner currentInstance;
 
@@ -22,7 +22,7 @@ public static class WaveSpawner
     {
         get
         {
-            if(currentInstance == null)
+            if (currentInstance == null)
                 return new DontSpawn();
 
             return currentInstance;
